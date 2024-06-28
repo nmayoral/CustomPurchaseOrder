@@ -1,0 +1,333 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" target-language="es-ES">
+    <body>
+      <group id="body">
+        <trans-unit id="Report 91148834 - Property 2879900210" translate="yes">
+          <source>Custom Purchase - Order</source>
+          <target>Pedido compra personalizado</target>
+        </trans-unit>
+        <trans-unit id="Report 91148834 - NamedType 3288550091" translate="yes">
+          <source>Allow Invoice Discount</source>
+          <target>
+          </target>
+        </trans-unit>
+        <trans-unit id="Report 91148834 - NamedType 694817936" translate="yes">
+          <source>Amount</source>
+          <target>
+          </target>
+        </trans-unit>
+        <trans-unit id="Report 91148834 - NamedType 4233096702" translate="yes">
+          <source>Account No.</source>
+          <target>
+          </target>
+        </trans-unit>
+        <trans-unit id="Report 91148834 - NamedType 3618206462" translate="yes">
+          <source>Bank</source>
+          <target>
+          </target>
+        </trans-unit>
+        <trans-unit id="Report 91148834 - NamedType 2609547522" translate="yes">
+          <source>Buy-from Contact E-Mail</source>
+          <target>
+          </target>
+        </trans-unit>
+        <trans-unit id="Report 91148834 - NamedType 2182502985" translate="yes">
+          <source>Buy-from Contact Mobile Phone No.</source>
+          <target>
+          </target>
+        </trans-unit>
+        <trans-unit id="Report 91148834 - NamedType 2508934449" translate="yes">
+          <source>Buy-from Contact Phone No.</source>
+          <target>
+          </target>
+        </trans-unit>
+        <trans-unit id="Report 91148834 - NamedType 3901489671" translate="yes">
+          <source>Description</source>
+          <target>
+          </target>
+        </trans-unit>
+        <trans-unit id="Report 91148834 - NamedType 4253417872" translate="yes">
+          <source>Direct Unit Cost</source>
+          <target>
+          </target>
+        </trans-unit>
+        <trans-unit id="Report 91148834 - NamedType 58636702" translate="yes">
+          <source>Discount %</source>
+          <target>
+          </target>
+        </trans-unit>
+        <trans-unit id="Report 91148834 - NamedType 3112881028" translate="yes">
+          <source>Document Date</source>
+          <target>
+          </target>
+        </trans-unit>
+        <trans-unit id="Report 91148834 - NamedType 3524079518" translate="yes">
+          <source>EC Amount</source>
+          <target>
+          </target>
+        </trans-unit>
+        <trans-unit id="Report 91148834 - NamedType 422172454" translate="yes">
+          <source>EC %</source>
+          <target>
+          </target>
+        </trans-unit>
+        <trans-unit id="Report 91148834 - NamedType 1877430892" translate="yes">
+          <source>Email</source>
+          <target>
+          </target>
+        </trans-unit>
+        <trans-unit id="Report 91148834 - NamedType 13422290" translate="yes">
+          <source>Giro No.</source>
+          <target>
+          </target>
+        </trans-unit>
+        <trans-unit id="Report 91148834 - NamedType 1496693689" translate="yes">
+          <source>G/L Account No.</source>
+          <target>
+          </target>
+        </trans-unit>
+        <trans-unit id="Report 91148834 - NamedType 2090169835" translate="yes">
+          <source>Header Dimensions</source>
+          <target>
+          </target>
+        </trans-unit>
+        <trans-unit id="Report 91148834 - NamedType 936076308" translate="yes">
+          <source>Home Page</source>
+          <target>
+          </target>
+        </trans-unit>
+        <trans-unit id="Report 91148834 - NamedType 385901179" translate="yes">
+          <source>Invoice and Payment Discounts</source>
+          <target>
+          </target>
+        </trans-unit>
+        <trans-unit id="Report 91148834 - NamedType 1650498060" translate="yes">
+          <source>Invoice Discount Amount</source>
+          <target>
+          </target>
+        </trans-unit>
+        <trans-unit id="Report 91148834 - NamedType 1378777375" translate="yes">
+          <source>Invoice Discount Base Amount</source>
+          <target>
+          </target>
+        </trans-unit>
+        <trans-unit id="Report 91148834 - NamedType 3548486750" translate="yes">
+          <source>Line Amount</source>
+          <target>
+          </target>
+        </trans-unit>
+        <trans-unit id="Report 91148834 - NamedType 1264881203" translate="yes">
+          <source>Line Dimensions</source>
+          <target>
+          </target>
+        </trans-unit>
+        <trans-unit id="Report 91148834 - NamedType 1000941094" translate="yes">
+          <source>PURCHASE ORDER</source>
+          <target>ORDEN DE COMPRA</target>
+        </trans-unit>
+        <trans-unit id="Report 91148834 - NamedType 3138916610" translate="yes">
+          <source>PO Date:</source>
+          <target>Fecha OC:</target>
+        </trans-unit>
+        <trans-unit id="Report 91148834 - NamedType 3261514235" translate="yes">
+          <source>PO Number:</source>
+          <target>Nº OC:</target>
+        </trans-unit>
+        <trans-unit id="Report 91148834 - NamedType 855268684" translate="yes">
+          <source>Ticket Number:</source>
+          <target>Ticket Nº:</target>
+        </trans-unit>
+        <trans-unit id="Report 91148834 - NamedType 2219219549" translate="yes">
+          <source>Order No.</source>
+          <target>
+          </target>
+        </trans-unit>
+        <trans-unit id="Report 91148834 - NamedType 650077689" translate="yes">
+          <source>Page</source>
+          <target>
+          </target>
+        </trans-unit>
+        <trans-unit id="Report 91148834 - NamedType 2893846144" translate="yes">
+          <source>Payment Details</source>
+          <target>
+          </target>
+        </trans-unit>
+        <trans-unit id="Report 91148834 - NamedType 1302573237" translate="yes">
+          <source>Payment Terms</source>
+          <target>
+          </target>
+        </trans-unit>
+        <trans-unit id="Report 91148834 - NamedType 2079014799" translate="yes">
+          <source>Pay-to Contact E-Mail</source>
+          <target>
+          </target>
+        </trans-unit>
+        <trans-unit id="Report 91148834 - NamedType 3401923736" translate="yes">
+          <source>Pay-to Contact Mobile Phone No.</source>
+          <target>
+          </target>
+        </trans-unit>
+        <trans-unit id="Report 91148834 - NamedType 1854022560" translate="yes">
+          <source>Pay-to Contact Phone No.</source>
+          <target>
+          </target>
+        </trans-unit>
+        <trans-unit id="Report 91148834 - NamedType 1928308579" translate="yes">
+          <source>Phone No.</source>
+          <target>
+          </target>
+        </trans-unit>
+        <trans-unit id="Report 91148834 - NamedType 3226598505" translate="yes">
+          <source>Prepayment Specification</source>
+          <target>
+          </target>
+        </trans-unit>
+        <trans-unit id="Report 91148834 - NamedType 2705781178" translate="yes">
+          <source>Prepayment Payment Terms</source>
+          <target>
+          </target>
+        </trans-unit>
+        <trans-unit id="Report 91148834 - NamedType 3222604704" translate="yes">
+          <source>Prepayment VAT Amount Specification</source>
+          <target>
+          </target>
+        </trans-unit>
+        <trans-unit id="Report 91148834 - NamedType 456467664" translate="yes">
+          <source>Ship-to Address</source>
+          <target>
+          </target>
+        </trans-unit>
+        <trans-unit id="Report 91148834 - NamedType 1875652324" translate="yes">
+          <source>Shipment Method</source>
+          <target>
+          </target>
+        </trans-unit>
+        <trans-unit id="Report 91148834 - NamedType 3126303398" translate="yes">
+          <source>Subtotal</source>
+          <target>
+          </target>
+        </trans-unit>
+        <trans-unit id="Report 91148834 - NamedType 732759939" translate="yes">
+          <source>Order %1</source>
+          <target>%1 = Document No.</target>
+        </trans-unit>
+        <trans-unit id="Report 91148834 - NamedType 2645849790" translate="yes">
+          <source>VAT Amount Specification in </source>
+          <target>
+          </target>
+        </trans-unit>
+        <trans-unit id="Report 91148834 - NamedType 3283546407" translate="yes">
+          <source>Local Currency</source>
+          <target>
+          </target>
+        </trans-unit>
+        <trans-unit id="Report 91148834 - NamedType 3921243024" translate="yes">
+          <source>Exchange rate: %1/%2</source>
+          <target>
+          </target>
+        </trans-unit>
+        <trans-unit id="Report 91148834 - NamedType 1583171122" translate="yes">
+          <source>Total</source>
+          <target>
+          </target>
+        </trans-unit>
+        <trans-unit id="Report 91148834 - NamedType 1056173015" translate="yes">
+          <source>Payment Discount Received Amount</source>
+          <target>
+          </target>
+        </trans-unit>
+        <trans-unit id="Report 91148834 - NamedType 4049601073" translate="yes">
+          <source>VAT Amount</source>
+          <target>
+          </target>
+        </trans-unit>
+        <trans-unit id="Report 91148834 - NamedType 1396908878" translate="yes">
+          <source>VAT Amount Specification</source>
+          <target>
+          </target>
+        </trans-unit>
+        <trans-unit id="Report 91148834 - NamedType 1303359398" translate="yes">
+          <source>VAT Base</source>
+          <target>
+          </target>
+        </trans-unit>
+        <trans-unit id="Report 91148834 - NamedType 534745102" translate="yes">
+          <source>Payment Discount on VAT</source>
+          <target>
+          </target>
+        </trans-unit>
+        <trans-unit id="Report 91148834 - NamedType 494261423" translate="yes">
+          <source>VAT Identifier</source>
+          <target>
+          </target>
+        </trans-unit>
+        <trans-unit id="Report 91148834 - NamedType 969467040" translate="yes">
+          <source>VAT %</source>
+          <target>
+          </target>
+        </trans-unit>
+        <trans-unit id="Report 91148834 - NamedType 1306668226" translate="yes">
+          <source>VAT Registration No.</source>
+          <target>
+          </target>
+        </trans-unit>
+        <trans-unit id="Report 91148834 - NamedType 132160432" translate="yes">
+          <source>Vendor No.</source>
+          <target>
+          </target>
+        </trans-unit>
+        <trans-unit id="Report 91148834 - ReportDataItem 2072992664 - Property 1806354803" translate="yes">
+          <source>Purchase Order</source>
+          <target>
+          </target>
+        </trans-unit>
+        <trans-unit id="Report 91148834 - Control 2346885236 - Property 2879900210" translate="yes">
+          <source>Options</source>
+          <target>
+          </target>
+        </trans-unit>
+        <trans-unit id="Report 91148834 - Control 3255118903 - Property 1295455071" translate="yes">
+          <source>Specifies whether to archive the order.</source>
+          <target>
+          </target>
+        </trans-unit>
+        <trans-unit id="Report 91148834 - Control 3255118903 - Property 2879900210" translate="yes">
+          <source>Archive Document</source>
+          <target>
+          </target>
+        </trans-unit>
+        <trans-unit id="Report 91148834 - Control 816368762 - Property 1295455071" translate="yes">
+          <source>Specifies if you want the program to log this interaction.</source>
+          <target>
+          </target>
+        </trans-unit>
+        <trans-unit id="Report 91148834 - Control 816368762 - Property 2879900210" translate="yes">
+          <source>Log Interaction</source>
+          <target>
+          </target>
+        </trans-unit>
+        <trans-unit id="Report 91148834 - Control 3192306909 - Property 1295455071" translate="yes">
+          <source>Specifies how many copies of the document to print.</source>
+          <target>
+          </target>
+        </trans-unit>
+        <trans-unit id="Report 91148834 - Control 3192306909 - Property 2879900210" translate="yes">
+          <source>No. of Copies</source>
+          <target>
+          </target>
+        </trans-unit>
+        <trans-unit id="Report 91148834 - Control 3662524380 - Property 1295455071" translate="yes">
+          <source>Specifies if you want the printed report to show information that is only for internal use.</source>
+          <target>
+          </target>
+        </trans-unit>
+        <trans-unit id="Report 91148834 - Control 3662524380 - Property 2879900210" translate="yes">
+          <source>Show Internal Information</source>
+          <target>
+          </target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

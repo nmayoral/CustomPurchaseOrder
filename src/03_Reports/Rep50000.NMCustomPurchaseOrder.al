@@ -1,8 +1,8 @@
-report 50000 UENOCustomPurchaseOrder
+report 50000 NMSCustomPurchaseOrder
 {
     Caption = 'Custom Purchase - Order', Comment = 'Pedido compra personalizado';
     DefaultLayout = RDLC;
-    RDLCLayout = '.\Layouts\UENOCustomPurchaseOrder.rdlc';
+    RDLCLayout = '.\Layouts\NMCustomPurchaseOrder.rdlc';
     ApplicationArea = All;
 
     dataset
@@ -78,6 +78,29 @@ report 50000 UENOCustomPurchaseOrder
             column(AllowInvDiscCaption; AllowInvDiscCaptionLbl)
             {
             }
+            //NM -- PERSONALIZADO INICIO
+            column(NMPurchaseOrderCaption; NMPurchaseOrderCaptionLbl)
+            {
+            }
+            column(NMPurchaseOrderDateCaption; NMPurchaseOrderDateCaptionLbl)
+            {
+            }
+            column(NMPurchaseOrderDate; "Posting Date")
+            {
+            }
+            column(NMPurchaseOrderNumberCaption; NMPurchaseOrderNumberCaptionLbl)
+            {
+            }
+            column(NMPurchaseOrderNumber; "No.")
+            {
+            }
+            column(NMTicketNumberCaption; NMTicketNumberCaptionLbl)
+            {
+            }
+            // column(NMTicketNumber; xxxxx)
+            // {
+            // }
+            //NM -- PERSONALIZADO FIN
             dataitem(CopyLoop; "Integer")
             {
                 DataItemTableView = SORTING(Number);
@@ -237,6 +260,11 @@ report 50000 UENOCustomPurchaseOrder
                     column(CACCaption; CACCaptionLbl)
                     {
                     }
+                    //NM -- PERSONALIZADO INICIO
+                    column(NMCompanyInfoName; CompanyInfo.Name)
+                    {
+                    }
+                    //NM -- PERSONALIZADO FIN
                     dataitem(DimensionLoop1; "Integer")
                     {
                         DataItemLinkReference = "Purchase Header";
@@ -1256,6 +1284,12 @@ report 50000 UENOCustomPurchaseOrder
         PayToContactEmailLbl: Label 'Pay-to Contact E-Mail';
         CACCaptionLbl: Text;
         CACTxt: Label 'Régimen especial del criterio de caja', Locked = true;
+        //NM -- PERSONALIZADO INICIO
+        NMPurchaseOrderCaptionLbl: Label 'PURCHASE ORDER', Comment = 'ORDEN DE COMPRA';
+        NMPurchaseOrderDateCaptionLbl: Label 'PO Date:', Comment = 'Fecha OC:';
+        NMPurchaseOrderNumberCaptionLbl: Label 'PO Number:', Comment = 'Nº OC:';
+        NMTicketNumberCaptionLbl: Label 'Ticket Number:', Comment = 'Ticket Nº:';
+    //NM -- PERSONALIZADO FIN
 
     protected var
         ArchiveDocument: Boolean;

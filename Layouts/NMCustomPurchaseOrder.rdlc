@@ -7,7 +7,6 @@
         <DataProvider>SQL</DataProvider>
         <ConnectString />
       </ConnectionProperties>
-      <rd:SecurityType>None</rd:SecurityType>
       <rd:DataSourceID>d3c37077-f9e7-4ce9-811b-06b569b0bbc1</rd:DataSourceID>
     </DataSource>
   </DataSources>
@@ -19,515 +18,54 @@
             <TablixBody>
               <TablixColumns>
                 <TablixColumn>
-                  <Width>6.99225in</Width>
+                  <Width>17.14079cm</Width>
                 </TablixColumn>
               </TablixColumns>
               <TablixRows>
                 <TablixRow>
-                  <Height>12.4368in</Height>
+                  <Height>26.8693cm</Height>
                   <TablixCells>
                     <TablixCell>
                       <CellContents>
                         <Rectangle Name="list1_Contents">
                           <ReportItems>
-                            <Tablix Name="table11">
-                              <TablixBody>
-                                <TablixColumns>
-                                  <TablixColumn>
-                                    <Width>0.03125in</Width>
-                                  </TablixColumn>
-                                  <TablixColumn>
-                                    <Width>0.03125in</Width>
-                                  </TablixColumn>
-                                  <TablixColumn>
-                                    <Width>0.68796in</Width>
-                                  </TablixColumn>
-                                  <TablixColumn>
-                                    <Width>0.56398in</Width>
-                                  </TablixColumn>
-                                  <TablixColumn>
-                                    <Width>0.85584in</Width>
-                                  </TablixColumn>
-                                  <TablixColumn>
-                                    <Width>0.15575in</Width>
-                                  </TablixColumn>
-                                  <TablixColumn>
-                                    <Width>0.2449in</Width>
-                                  </TablixColumn>
-                                  <TablixColumn>
-                                    <Width>0.04224in</Width>
-                                  </TablixColumn>
-                                  <TablixColumn>
-                                    <Width>0.04702in</Width>
-                                  </TablixColumn>
-                                  <TablixColumn>
-                                    <Width>0.03125in</Width>
-                                  </TablixColumn>
-                                  <TablixColumn>
-                                    <Width>0.34375in</Width>
-                                  </TablixColumn>
-                                </TablixColumns>
-                                <TablixRows>
-                                  <TablixRow>
-                                    <Height>0.13889in</Height>
-                                    <TablixCells>
-                                      <TablixCell>
-                                        <CellContents>
-                                          <Textbox Name="Textbox6">
-                                            <CanGrow>true</CanGrow>
-                                            <KeepTogether>true</KeepTogether>
-                                            <Paragraphs>
-                                              <Paragraph>
-                                                <TextRuns>
-                                                  <TextRun>
-                                                    <Value />
-                                                    <Style>
-                                                      <FontStyle>Normal</FontStyle>
-                                                      <FontFamily>Segoe UI</FontFamily>
-                                                      <FontSize>8pt</FontSize>
-                                                      <Color>DodgerBlue</Color>
-                                                    </Style>
-                                                  </TextRun>
-                                                </TextRuns>
-                                                <Style />
-                                              </Paragraph>
-                                            </Paragraphs>
-                                            <rd:DefaultName>Textbox6</rd:DefaultName>
-                                            <Style>
-                                              <VerticalAlign>Middle</VerticalAlign>
-                                              <PaddingRight>5pt</PaddingRight>
-                                            </Style>
-                                          </Textbox>
-                                        </CellContents>
-                                      </TablixCell>
-                                      <TablixCell>
-                                        <CellContents>
-                                          <Textbox Name="STRSUBSTNOText004CopyText">
-                                            <KeepTogether>true</KeepTogether>
-                                            <Paragraphs>
-                                              <Paragraph>
-                                                <TextRuns>
-                                                  <TextRun>
-                                                    <Value>=Fields!OrderCopyText.Value</Value>
-                                                    <Style>
-                                                      <FontStyle>Normal</FontStyle>
-                                                      <FontFamily>Segoe UI</FontFamily>
-                                                      <FontSize>8pt</FontSize>
-                                                      <Color>#ff0000</Color>
-                                                    </Style>
-                                                  </TextRun>
-                                                </TextRuns>
-                                                <Style />
-                                              </Paragraph>
-                                            </Paragraphs>
-                                            <ZIndex>9</ZIndex>
-                                            <Visibility>
-                                              <Hidden>true</Hidden>
-                                            </Visibility>
-                                            <Style>
-                                              <VerticalAlign>Middle</VerticalAlign>
-                                              <PaddingRight>5pt</PaddingRight>
-                                            </Style>
-                                          </Textbox>
-                                        </CellContents>
-                                      </TablixCell>
-                                      <TablixCell>
-                                        <CellContents>
-                                          <Textbox Name="BuyFromAddr">
-                                            <KeepTogether>true</KeepTogether>
-                                            <Paragraphs>
-                                              <Paragraph>
-                                                <TextRuns>
-                                                  <TextRun>
-                                                    <Value />
-                                                    <Style>
-                                                      <FontStyle>Normal</FontStyle>
-                                                      <FontFamily>Segoe UI</FontFamily>
-                                                      <FontSize>8pt</FontSize>
-                                                      <Color>DodgerBlue</Color>
-                                                    </Style>
-                                                  </TextRun>
-                                                </TextRuns>
-                                                <Style />
-                                              </Paragraph>
-                                            </Paragraphs>
-                                            <ZIndex>8</ZIndex>
-                                            <Visibility>
-                                              <Hidden>=Code.SetData(Cstr(Fields!BuyFromAddr1.Value) + Chr(177) + 
-Cstr(Fields!BuyFromAddr2.Value) + Chr(177) + 
-Cstr(Fields!BuyFromAddr3.Value) + Chr(177) + 
-Cstr(Fields!BuyFromAddr4.Value) + Chr(177) + 
-Cstr(Fields!BuyFromAddr5.Value) + Chr(177) + 
-Cstr(Fields!BuyFromAddr6.Value) + Chr(177) + 
-Cstr(Fields!BuyFromAddr7.Value) + Chr(177) + 
-Cstr(Fields!BuyFromAddr8.Value) + Chr(177) + 
-Cstr(Fields!CompanyAddr1.Value) + Chr(177) + 
-Cstr(Fields!CompanyAddr2.Value) + Chr(177) + 
-Cstr(Fields!CompanyAddr3.Value) + Chr(177) + 
-Cstr(Fields!CompanyAddr4.Value) + Chr(177) + 
-Cstr(Fields!CompanyAddr5.Value) + Chr(177) + 
-Cstr(Fields!CompanyAddr6.Value) + Chr(177) + 
-Cstr(Fields!OrderCopyText.Value) + Chr(177) + 
-Cstr(Fields!CompanyInfoPhoneNo.Value) + Chr(177) + 
-Cstr(Fields!CompanyInfoVATRegNo.Value) + Chr(177) + 
-Cstr(Fields!CompanyInfoGiroNo.Value) + Chr(177) + 
-Cstr(Fields!CompanyInfoBankName.Value) + Chr(177) + 
-Cstr(Fields!CompanyInfoBankAccNo.Value) + Chr(177) + 
-Cstr(Fields!DocDate_PurchHeader.Value) + Chr(177) + 
-Cstr(Fields!No_PurchHeader.Value) + Chr(177) + 
-Cstr(Fields!PricesInclVATtxt.Value) + Chr(177) + 
-Cstr(Fields!BuyfromVenNo_PurchHeader.Value) + Chr(177) + 
-Cstr(Fields!VATRegNo_PurchHeader.Value) + Chr(177) + 
-Cstr(Fields!SalesPurchPersonName.Value) + Chr(177) + 
-Cstr(Fields!YourReference_PurchHeader.Value) + Chr(177) + 
-Cstr(Fields!CompanyInfoHomepage.Value) + Chr(177) + 
-Cstr(Fields!CompanyInfoEmail.Value) + Chr(177) + 
-Cstr(Fields!PrepmtPayTermsDesc.Value) + Chr(177) + 
-Cstr(Fields!PayTermsDesc.Value) + Chr(177) + 
-Cstr(Fields!ShipMethodDesc.Value) + Chr(177) + 
-Cstr(Fields!BuyfromVenNo_PurchHeaderCaption.Value) + Chr(177) + 
-Cstr(Fields!ReferenceText.Value) + Chr(177) + 
-Cstr(Fields!PurchaserText.Value) + Chr(177) + 
-Cstr(Fields!VATNoText.Value) + Chr(177) + 
-Cstr(Fields!PricesIncludingVAT_PurchHeaderCaption.Value) + Chr(177) + 
-Cstr(Fields!OrderNoCaption.Value) + Chr(177) + 
-Cstr(Fields!BankAccNoCaption.Value) + Chr(177) + 
-Cstr(Fields!BankCaption.Value) + Chr(177) + 
-Cstr(Fields!GiroNoCaption.Value) + Chr(177) + 
-Cstr(Fields!VATRegNoCaption.Value) + Chr(177) + 
-Cstr(Fields!PhoneNoCaption.Value) + Chr(177) + 
-Cstr(Fields!PageCaption.Value) + Chr(177) + 
-Cstr(Fields!DocDateCaption.Value) + Chr(177) + 
-Cstr(Fields!EmailCaption.Value) + Chr(177) + 
-Cstr(Fields!HomepageCaption.Value) + Chr(177) + 
-Cstr(Fields!PaymentTermsCaption.Value) + Chr(177) + 
-Cstr(Fields!ShpMethodCaption.Value) + Chr(177) + 
-Cstr(Fields!PrePmtTermsDescCaption.Value) + Chr(177) + 
-Cstr(Fields!CACCaption.Value)
-, 1)</Hidden>
-                                            </Visibility>
-                                            <Style>
-                                              <VerticalAlign>Middle</VerticalAlign>
-                                              <PaddingRight>5pt</PaddingRight>
-                                            </Style>
-                                          </Textbox>
-                                        </CellContents>
-                                      </TablixCell>
-                                      <TablixCell>
-                                        <CellContents>
-                                          <Textbox Name="Textbox7">
-                                            <CanGrow>true</CanGrow>
-                                            <KeepTogether>true</KeepTogether>
-                                            <Paragraphs>
-                                              <Paragraph>
-                                                <TextRuns>
-                                                  <TextRun>
-                                                    <Value />
-                                                    <Style>
-                                                      <FontStyle>Normal</FontStyle>
-                                                      <FontFamily>Segoe UI</FontFamily>
-                                                      <FontSize>8pt</FontSize>
-                                                      <Color>#ff0000</Color>
-                                                    </Style>
-                                                  </TextRun>
-                                                </TextRuns>
-                                                <Style />
-                                              </Paragraph>
-                                            </Paragraphs>
-                                            <rd:DefaultName>Textbox7</rd:DefaultName>
-                                            <Style>
-                                              <VerticalAlign>Middle</VerticalAlign>
-                                              <PaddingRight>5pt</PaddingRight>
-                                            </Style>
-                                          </Textbox>
-                                        </CellContents>
-                                      </TablixCell>
-                                      <TablixCell>
-                                        <CellContents>
-                                          <Textbox Name="PurchHeaderInfo1">
-                                            <KeepTogether>true</KeepTogether>
-                                            <Paragraphs>
-                                              <Paragraph>
-                                                <TextRuns>
-                                                  <TextRun>
-                                                    <Value />
-                                                    <Style>
-                                                      <FontStyle>Normal</FontStyle>
-                                                      <FontFamily>Segoe UI</FontFamily>
-                                                      <FontSize>8pt</FontSize>
-                                                      <Color>#ff0000</Color>
-                                                    </Style>
-                                                  </TextRun>
-                                                </TextRuns>
-                                                <Style />
-                                              </Paragraph>
-                                            </Paragraphs>
-                                            <ZIndex>6</ZIndex>
-                                            <Visibility>
-                                              <Hidden>true</Hidden>
-                                            </Visibility>
-                                            <Style>
-                                              <VerticalAlign>Middle</VerticalAlign>
-                                              <PaddingRight>5pt</PaddingRight>
-                                            </Style>
-                                          </Textbox>
-                                        </CellContents>
-                                      </TablixCell>
-                                      <TablixCell>
-                                        <CellContents>
-                                          <Textbox Name="FORMATPurchaseHeaderDocumentDate04">
-                                            <KeepTogether>true</KeepTogether>
-                                            <Paragraphs>
-                                              <Paragraph>
-                                                <TextRuns>
-                                                  <TextRun>
-                                                    <Value>=Fields!DocDate_PurchHeader.Value</Value>
-                                                    <Style>
-                                                      <FontStyle>Normal</FontStyle>
-                                                      <FontFamily>Segoe UI</FontFamily>
-                                                      <FontSize>8pt</FontSize>
-                                                      <Color>#ff0000</Color>
-                                                    </Style>
-                                                  </TextRun>
-                                                </TextRuns>
-                                                <Style />
-                                              </Paragraph>
-                                            </Paragraphs>
-                                            <ZIndex>5</ZIndex>
-                                            <Visibility>
-                                              <Hidden>true</Hidden>
-                                            </Visibility>
-                                            <Style>
-                                              <VerticalAlign>Middle</VerticalAlign>
-                                              <PaddingRight>5pt</PaddingRight>
-                                            </Style>
-                                          </Textbox>
-                                        </CellContents>
-                                      </TablixCell>
-                                      <TablixCell>
-                                        <CellContents>
-                                          <Textbox Name="PageCaption">
-                                            <CanGrow>true</CanGrow>
-                                            <KeepTogether>true</KeepTogether>
-                                            <Paragraphs>
-                                              <Paragraph>
-                                                <TextRuns>
-                                                  <TextRun>
-                                                    <Value>=Fields!PageCaption.Value</Value>
-                                                    <Style>
-                                                      <FontStyle>Normal</FontStyle>
-                                                      <FontFamily>Segoe UI</FontFamily>
-                                                      <FontSize>8pt</FontSize>
-                                                      <Color>#ff0000</Color>
-                                                    </Style>
-                                                  </TextRun>
-                                                </TextRuns>
-                                                <Style />
-                                              </Paragraph>
-                                            </Paragraphs>
-                                            <ZIndex>4</ZIndex>
-                                            <Visibility>
-                                              <Hidden>true</Hidden>
-                                            </Visibility>
-                                            <Style>
-                                              <VerticalAlign>Middle</VerticalAlign>
-                                              <PaddingRight>5pt</PaddingRight>
-                                            </Style>
-                                          </Textbox>
-                                        </CellContents>
-                                      </TablixCell>
-                                      <TablixCell>
-                                        <CellContents>
-                                          <Textbox Name="PurchaseHeaderDocumentType">
-                                            <KeepTogether>true</KeepTogether>
-                                            <Paragraphs>
-                                              <Paragraph>
-                                                <TextRuns>
-                                                  <TextRun>
-                                                    <Value>=Fields!DocType_PurchHeader.Value</Value>
-                                                    <Style>
-                                                      <FontStyle>Normal</FontStyle>
-                                                      <FontFamily>Segoe UI</FontFamily>
-                                                      <FontSize>8pt</FontSize>
-                                                      <Color>Red</Color>
-                                                    </Style>
-                                                  </TextRun>
-                                                </TextRuns>
-                                                <Style />
-                                              </Paragraph>
-                                            </Paragraphs>
-                                            <ZIndex>3</ZIndex>
-                                            <Visibility>
-                                              <Hidden>true</Hidden>
-                                            </Visibility>
-                                            <Style>
-                                              <VerticalAlign>Middle</VerticalAlign>
-                                              <PaddingRight>5pt</PaddingRight>
-                                            </Style>
-                                          </Textbox>
-                                        </CellContents>
-                                      </TablixCell>
-                                      <TablixCell>
-                                        <CellContents>
-                                          <Textbox Name="PurchaseHeaderNo">
-                                            <KeepTogether>true</KeepTogether>
-                                            <Paragraphs>
-                                              <Paragraph>
-                                                <TextRuns>
-                                                  <TextRun>
-                                                    <Value>=Fields!No_PurchHeader.Value</Value>
-                                                    <Style>
-                                                      <FontStyle>Normal</FontStyle>
-                                                      <FontFamily>Segoe UI</FontFamily>
-                                                      <FontSize>8pt</FontSize>
-                                                      <Color>Red</Color>
-                                                    </Style>
-                                                  </TextRun>
-                                                </TextRuns>
-                                                <Style />
-                                              </Paragraph>
-                                            </Paragraphs>
-                                            <ZIndex>2</ZIndex>
-                                            <Visibility>
-                                              <Hidden>true</Hidden>
-                                            </Visibility>
-                                            <Style>
-                                              <VerticalAlign>Middle</VerticalAlign>
-                                              <PaddingRight>5pt</PaddingRight>
-                                            </Style>
-                                          </Textbox>
-                                        </CellContents>
-                                      </TablixCell>
-                                      <TablixCell>
-                                        <CellContents>
-                                          <Textbox Name="OutputNo">
-                                            <KeepTogether>true</KeepTogether>
-                                            <Paragraphs>
-                                              <Paragraph>
-                                                <TextRuns>
-                                                  <TextRun>
-                                                    <Value>=Fields!OutputNo.Value</Value>
-                                                    <Style>
-                                                      <FontStyle>Normal</FontStyle>
-                                                      <FontFamily>Segoe UI</FontFamily>
-                                                      <FontSize>8pt</FontSize>
-                                                      <Color>Red</Color>
-                                                    </Style>
-                                                  </TextRun>
-                                                </TextRuns>
-                                                <Style />
-                                              </Paragraph>
-                                            </Paragraphs>
-                                            <ZIndex>1</ZIndex>
-                                            <Visibility>
-                                              <Hidden>true</Hidden>
-                                            </Visibility>
-                                            <Style>
-                                              <VerticalAlign>Middle</VerticalAlign>
-                                              <PaddingRight>5pt</PaddingRight>
-                                            </Style>
-                                          </Textbox>
-                                        </CellContents>
-                                      </TablixCell>
-                                      <TablixCell>
-                                        <CellContents>
-                                          <Textbox Name="NewPage">
-                                            <KeepTogether>true</KeepTogether>
-                                            <Paragraphs>
-                                              <Paragraph>
-                                                <TextRuns>
-                                                  <TextRun>
-                                                    <Value>=IIF(Code.IsNewPage(Fields!DocType_PurchHeader.Value,Fields!No_PurchHeader.Value,Fields!OutputNo.Value),TRUE,FALSE)</Value>
-                                                    <Style>
-                                                      <Color>Red</Color>
-                                                    </Style>
-                                                  </TextRun>
-                                                </TextRuns>
-                                                <Style />
-                                              </Paragraph>
-                                            </Paragraphs>
-                                            <Visibility>
-                                              <Hidden>true</Hidden>
-                                            </Visibility>
-                                            <Style>
-                                              <VerticalAlign>Middle</VerticalAlign>
-                                              <PaddingRight>5pt</PaddingRight>
-                                            </Style>
-                                          </Textbox>
-                                        </CellContents>
-                                      </TablixCell>
-                                    </TablixCells>
-                                  </TablixRow>
-                                </TablixRows>
-                              </TablixBody>
-                              <TablixColumnHierarchy>
-                                <TablixMembers>
-                                  <TablixMember />
-                                  <TablixMember />
-                                  <TablixMember />
-                                  <TablixMember />
-                                  <TablixMember />
-                                  <TablixMember />
-                                  <TablixMember />
-                                  <TablixMember />
-                                  <TablixMember />
-                                  <TablixMember />
-                                  <TablixMember />
-                                </TablixMembers>
-                              </TablixColumnHierarchy>
-                              <TablixRowHierarchy>
-                                <TablixMembers>
-                                  <TablixMember>
-                                    <KeepWithGroup>After</KeepWithGroup>
-                                    <KeepTogether>true</KeepTogether>
-                                  </TablixMember>
-                                </TablixMembers>
-                              </TablixRowHierarchy>
-                              <DataSetName>DataSet_Result</DataSetName>
-                              <Height>0.35278cm</Height>
-                              <Width>7.70938cm</Width>
-                              <Visibility>
-                                <Hidden>true</Hidden>
-                              </Visibility>
-                              <Style />
-                            </Tablix>
                             <Tablix Name="TablePurchOrder">
                               <TablixBody>
                                 <TablixColumns>
                                   <TablixColumn>
-                                    <Width>0.80104in</Width>
+                                    <Width>1.96941cm</Width>
                                   </TablixColumn>
                                   <TablixColumn>
-                                    <Width>0.73707in</Width>
+                                    <Width>1.80693cm</Width>
                                   </TablixColumn>
                                   <TablixColumn>
-                                    <Width>0.39497in</Width>
+                                    <Width>0.93799cm</Width>
                                   </TablixColumn>
                                   <TablixColumn>
-                                    <Width>0.69149in</Width>
+                                    <Width>1.69115cm</Width>
                                   </TablixColumn>
                                   <TablixColumn>
-                                    <Width>0.67891in</Width>
+                                    <Width>1.6592cm</Width>
                                   </TablixColumn>
                                   <TablixColumn>
-                                    <Width>0.7799in</Width>
+                                    <Width>1.91572cm</Width>
                                   </TablixColumn>
                                   <TablixColumn>
-                                    <Width>0.82508in</Width>
+                                    <Width>2.03047cm</Width>
                                   </TablixColumn>
                                   <TablixColumn>
-                                    <Width>0.67046in</Width>
+                                    <Width>1.63774cm</Width>
                                   </TablixColumn>
                                   <TablixColumn>
-                                    <Width>0.64785in</Width>
+                                    <Width>1.58031cm</Width>
                                   </TablixColumn>
                                   <TablixColumn>
-                                    <Width>0.76588in</Width>
+                                    <Width>1.88011cm</Width>
                                   </TablixColumn>
                                 </TablixColumns>
                                 <TablixRows>
                                   <TablixRow>
-                                    <Height>0.13889in</Height>
+                                    <Height>0.35278cm</Height>
                                     <TablixCells>
                                       <TablixCell>
                                         <CellContents>
@@ -819,7 +357,7 @@ Cstr(Fields!CACCaption.Value)
                                     </TablixCells>
                                   </TablixRow>
                                   <TablixRow>
-                                    <Height>0.06944in</Height>
+                                    <Height>0.17638cm</Height>
                                     <TablixCells>
                                       <TablixCell>
                                         <CellContents>
@@ -864,7 +402,7 @@ Cstr(Fields!CACCaption.Value)
                                     </TablixCells>
                                   </TablixRow>
                                   <TablixRow>
-                                    <Height>0.06944in</Height>
+                                    <Height>0.17638cm</Height>
                                     <TablixCells>
                                       <TablixCell>
                                         <CellContents>
@@ -903,7 +441,7 @@ Cstr(Fields!CACCaption.Value)
                                     </TablixCells>
                                   </TablixRow>
                                   <TablixRow>
-                                    <Height>0.13889in</Height>
+                                    <Height>0.35278cm</Height>
                                     <TablixCells>
                                       <TablixCell>
                                         <CellContents>
@@ -1190,7 +728,7 @@ Cstr(Fields!CACCaption.Value)
                                     </TablixCells>
                                   </TablixRow>
                                   <TablixRow>
-                                    <Height>0.13889in</Height>
+                                    <Height>0.35278cm</Height>
                                     <TablixCells>
                                       <TablixCell>
                                         <CellContents>
@@ -1347,7 +885,7 @@ Cstr(Fields!CACCaption.Value)
                                     </TablixCells>
                                   </TablixRow>
                                   <TablixRow>
-                                    <Height>0.13889in</Height>
+                                    <Height>0.35278cm</Height>
                                     <TablixCells>
                                       <TablixCell>
                                         <CellContents>
@@ -1419,7 +957,7 @@ Cstr(Fields!CACCaption.Value)
                                     </TablixCells>
                                   </TablixRow>
                                   <TablixRow>
-                                    <Height>0.13889in</Height>
+                                    <Height>0.35278cm</Height>
                                     <TablixCells>
                                       <TablixCell>
                                         <CellContents>
@@ -1462,7 +1000,7 @@ Cstr(Fields!CACCaption.Value)
                                     </TablixCells>
                                   </TablixRow>
                                   <TablixRow>
-                                    <Height>0.13889in</Height>
+                                    <Height>0.35278cm</Height>
                                     <TablixCells>
                                       <TablixCell>
                                         <CellContents>
@@ -1571,7 +1109,7 @@ Cstr(Fields!CACCaption.Value)
                                     </TablixCells>
                                   </TablixRow>
                                   <TablixRow>
-                                    <Height>0.13889in</Height>
+                                    <Height>0.35278cm</Height>
                                     <TablixCells>
                                       <TablixCell>
                                         <CellContents>
@@ -1677,7 +1215,7 @@ Cstr(Fields!CACCaption.Value)
                                     </TablixCells>
                                   </TablixRow>
                                   <TablixRow>
-                                    <Height>0.13889in</Height>
+                                    <Height>0.35278cm</Height>
                                     <TablixCells>
                                       <TablixCell>
                                         <CellContents>
@@ -1783,7 +1321,7 @@ Cstr(Fields!CACCaption.Value)
                                     </TablixCells>
                                   </TablixRow>
                                   <TablixRow>
-                                    <Height>0.13889in</Height>
+                                    <Height>0.35278cm</Height>
                                     <TablixCells>
                                       <TablixCell>
                                         <CellContents>
@@ -1891,7 +1429,7 @@ Cstr(Fields!CACCaption.Value)
                                     </TablixCells>
                                   </TablixRow>
                                   <TablixRow>
-                                    <Height>0.13889in</Height>
+                                    <Height>0.35278cm</Height>
                                     <TablixCells>
                                       <TablixCell>
                                         <CellContents>
@@ -1996,7 +1534,7 @@ Cstr(Fields!CACCaption.Value)
                                     </TablixCells>
                                   </TablixRow>
                                   <TablixRow>
-                                    <Height>0.06944in</Height>
+                                    <Height>0.17638cm</Height>
                                     <TablixCells>
                                       <TablixCell>
                                         <CellContents>
@@ -2070,7 +1608,7 @@ Cstr(Fields!CACCaption.Value)
                                     </TablixCells>
                                   </TablixRow>
                                   <TablixRow>
-                                    <Height>0.06944in</Height>
+                                    <Height>0.17638cm</Height>
                                     <TablixCells>
                                       <TablixCell>
                                         <CellContents>
@@ -2150,7 +1688,7 @@ Cstr(Fields!CACCaption.Value)
                                     </TablixCells>
                                   </TablixRow>
                                   <TablixRow>
-                                    <Height>0.13889in</Height>
+                                    <Height>0.35278cm</Height>
                                     <TablixCells>
                                       <TablixCell>
                                         <CellContents>
@@ -2258,7 +1796,7 @@ Cstr(Fields!CACCaption.Value)
                                     </TablixCells>
                                   </TablixRow>
                                   <TablixRow>
-                                    <Height>0.13889in</Height>
+                                    <Height>0.35278cm</Height>
                                     <TablixCells>
                                       <TablixCell>
                                         <CellContents>
@@ -2364,7 +1902,7 @@ Cstr(Fields!CACCaption.Value)
                                     </TablixCells>
                                   </TablixRow>
                                   <TablixRow>
-                                    <Height>0.06944in</Height>
+                                    <Height>0.17638cm</Height>
                                     <TablixCells>
                                       <TablixCell>
                                         <CellContents>
@@ -2444,7 +1982,7 @@ Cstr(Fields!CACCaption.Value)
                                     </TablixCells>
                                   </TablixRow>
                                   <TablixRow>
-                                    <Height>0.06944in</Height>
+                                    <Height>0.17638cm</Height>
                                     <TablixCells>
                                       <TablixCell>
                                         <CellContents>
@@ -2518,7 +2056,7 @@ Cstr(Fields!CACCaption.Value)
                                     </TablixCells>
                                   </TablixRow>
                                   <TablixRow>
-                                    <Height>0.13889in</Height>
+                                    <Height>0.35278cm</Height>
                                     <TablixCells>
                                       <TablixCell>
                                         <CellContents>
@@ -2624,7 +2162,7 @@ Cstr(Fields!CACCaption.Value)
                                     </TablixCells>
                                   </TablixRow>
                                   <TablixRow>
-                                    <Height>0.13889in</Height>
+                                    <Height>0.35278cm</Height>
                                     <TablixCells>
                                       <TablixCell>
                                         <CellContents>
@@ -2668,7 +2206,7 @@ Cstr(Fields!CACCaption.Value)
                                     </TablixCells>
                                   </TablixRow>
                                   <TablixRow>
-                                    <Height>0.13889in</Height>
+                                    <Height>0.35278cm</Height>
                                     <TablixCells>
                                       <TablixCell>
                                         <CellContents>
@@ -2772,7 +2310,7 @@ Cstr(Fields!CACCaption.Value)
                                     </TablixCells>
                                   </TablixRow>
                                   <TablixRow>
-                                    <Height>0.13889in</Height>
+                                    <Height>0.35278cm</Height>
                                     <TablixCells>
                                       <TablixCell>
                                         <CellContents>
@@ -3059,45 +2597,46 @@ Cstr(Fields!CACCaption.Value)
                                   <Value>=Fields!DocType_PurchHeader.Value</Value>
                                 </SortExpression>
                               </SortExpressions>
-                              <Height>6.70275cm</Height>
-                              <Width>17.76133cm</Width>
-                              <ZIndex>1</ZIndex>
+                              <Top>0.275in</Top>
+                              <Left>0.0125in</Left>
+                              <Height>6.70276cm</Height>
+                              <Width>17.10903cm</Width>
                               <Style />
                             </Tablix>
                             <Tablix Name="TableVatAmtSpecification">
                               <TablixBody>
                                 <TablixColumns>
                                   <TablixColumn>
-                                    <Width>0.65193in</Width>
+                                    <Width>1.58353cm</Width>
                                   </TablixColumn>
                                   <TablixColumn>
-                                    <Width>0.52695in</Width>
+                                    <Width>1.26608cm</Width>
                                   </TablixColumn>
                                   <TablixColumn>
-                                    <Width>0.65193in</Width>
+                                    <Width>1.58353cm</Width>
                                   </TablixColumn>
                                   <TablixColumn>
-                                    <Width>0.77692in</Width>
+                                    <Width>1.90101cm</Width>
                                   </TablixColumn>
                                   <TablixColumn>
-                                    <Width>0.77692in</Width>
+                                    <Width>1.90101cm</Width>
                                   </TablixColumn>
                                   <TablixColumn>
-                                    <Width>0.9019in</Width>
+                                    <Width>2.21846cm</Width>
                                   </TablixColumn>
                                   <TablixColumn>
-                                    <Width>0.9019in</Width>
+                                    <Width>2.21846cm</Width>
                                   </TablixColumn>
                                   <TablixColumn>
-                                    <Width>0.9019in</Width>
+                                    <Width>2.21846cm</Width>
                                   </TablixColumn>
                                   <TablixColumn>
-                                    <Width>0.9019in</Width>
+                                    <Width>2.21846cm</Width>
                                   </TablixColumn>
                                 </TablixColumns>
                                 <TablixRows>
                                   <TablixRow>
-                                    <Height>0.13889in</Height>
+                                    <Height>0.35278cm</Height>
                                     <TablixCells>
                                       <TablixCell>
                                         <CellContents>
@@ -3281,7 +2820,7 @@ Cstr(Fields!CACCaption.Value)
                                     </TablixCells>
                                   </TablixRow>
                                   <TablixRow>
-                                    <Height>0.13889in</Height>
+                                    <Height>0.35278cm</Height>
                                     <TablixCells>
                                       <TablixCell>
                                         <CellContents>
@@ -3577,7 +3116,7 @@ Cstr(Fields!CACCaption.Value)
                                     </TablixCells>
                                   </TablixRow>
                                   <TablixRow>
-                                    <Height>0.06944in</Height>
+                                    <Height>0.17638cm</Height>
                                     <TablixCells>
                                       <TablixCell>
                                         <CellContents>
@@ -3626,7 +3165,7 @@ Cstr(Fields!CACCaption.Value)
                                     </TablixCells>
                                   </TablixRow>
                                   <TablixRow>
-                                    <Height>0.06944in</Height>
+                                    <Height>0.17638cm</Height>
                                     <TablixCells>
                                       <TablixCell>
                                         <CellContents>
@@ -3669,7 +3208,7 @@ Cstr(Fields!CACCaption.Value)
                                     </TablixCells>
                                   </TablixRow>
                                   <TablixRow>
-                                    <Height>0.13889in</Height>
+                                    <Height>0.35278cm</Height>
                                     <TablixCells>
                                       <TablixCell>
                                         <CellContents>
@@ -3940,7 +3479,7 @@ Cstr(Fields!CACCaption.Value)
                                     </TablixCells>
                                   </TablixRow>
                                   <TablixRow>
-                                    <Height>0.06944in</Height>
+                                    <Height>0.17638cm</Height>
                                     <TablixCells>
                                       <TablixCell>
                                         <CellContents>
@@ -4076,7 +3615,7 @@ Cstr(Fields!CACCaption.Value)
                                     </TablixCells>
                                   </TablixRow>
                                   <TablixRow>
-                                    <Height>0.06944in</Height>
+                                    <Height>0.17638cm</Height>
                                     <TablixCells>
                                       <TablixCell>
                                         <CellContents>
@@ -4206,7 +3745,7 @@ Cstr(Fields!CACCaption.Value)
                                     </TablixCells>
                                   </TablixRow>
                                   <TablixRow>
-                                    <Height>0.13889in</Height>
+                                    <Height>0.35278cm</Height>
                                     <TablixCells>
                                       <TablixCell>
                                         <CellContents>
@@ -4550,9 +4089,10 @@ Cstr(Fields!CACCaption.Value)
                                 </Filter>
                               </Filters>
                               <Top>212.80011pt</Top>
-                              <Height>2.11663cm</Height>
-                              <Width>17.76031cm</Width>
-                              <ZIndex>2</ZIndex>
+                              <Left>0.0125in</Left>
+                              <Height>2.11664cm</Height>
+                              <Width>17.109cm</Width>
+                              <ZIndex>1</ZIndex>
                               <Visibility>
                                 <Hidden>=IIF(Fields!VATAmtLineVATAmt.Value=0,TRUE,FALSE)</Hidden>
                               </Visibility>
@@ -4563,15 +4103,15 @@ Cstr(Fields!CACCaption.Value)
                               <TablixBody>
                                 <TablixColumns>
                                   <TablixColumn>
-                                    <Width>1.55886in</Width>
+                                    <Width>3.63387cm</Width>
                                   </TablixColumn>
                                   <TablixColumn>
-                                    <Width>5.43338in</Width>
+                                    <Width>13.47516cm</Width>
                                   </TablixColumn>
                                 </TablixColumns>
                                 <TablixRows>
                                   <TablixRow>
-                                    <Height>0.13889in</Height>
+                                    <Height>0.35278cm</Height>
                                     <TablixCells>
                                       <TablixCell>
                                         <CellContents>
@@ -4655,10 +4195,11 @@ Cstr(Fields!CACCaption.Value)
                                   </FilterValues>
                                 </Filter>
                               </Filters>
-                              <Top>31.23669cm</Top>
+                              <Top>26.30485cm</Top>
+                              <Left>0.0125in</Left>
                               <Height>0.35278cm</Height>
-                              <Width>17.76029cm</Width>
-                              <ZIndex>4</ZIndex>
+                              <Width>17.10903cm</Width>
+                              <ZIndex>2</ZIndex>
                               <Visibility>
                                 <Hidden>=IIF(Fields!ShowInternalInfo.Value=TRUE AND Fields!DimText.Value&lt;&gt;"",FALSE,TRUE)</Hidden>
                               </Visibility>
@@ -4669,21 +4210,21 @@ Cstr(Fields!CACCaption.Value)
                               <TablixBody>
                                 <TablixColumns>
                                   <TablixColumn>
-                                    <Width>1.67038in</Width>
+                                    <Width>4.07996cm</Width>
                                   </TablixColumn>
                                   <TablixColumn>
-                                    <Width>1.66826in</Width>
+                                    <Width>4.07457cm</Width>
                                   </TablixColumn>
                                   <TablixColumn>
-                                    <Width>1.82786in</Width>
+                                    <Width>4.47995cm</Width>
                                   </TablixColumn>
                                   <TablixColumn>
-                                    <Width>1.82574in</Width>
+                                    <Width>4.47457cm</Width>
                                   </TablixColumn>
                                 </TablixColumns>
                                 <TablixRows>
                                   <TablixRow>
-                                    <Height>0.13889in</Height>
+                                    <Height>0.35278cm</Height>
                                     <TablixCells>
                                       <TablixCell>
                                         <CellContents>
@@ -4721,7 +4262,7 @@ Cstr(Fields!CACCaption.Value)
                                     </TablixCells>
                                   </TablixRow>
                                   <TablixRow>
-                                    <Height>0.13889in</Height>
+                                    <Height>0.35278cm</Height>
                                     <TablixCells>
                                       <TablixCell>
                                         <CellContents>
@@ -4758,7 +4299,7 @@ Cstr(Fields!CACCaption.Value)
                                     </TablixCells>
                                   </TablixRow>
                                   <TablixRow>
-                                    <Height>0.13889in</Height>
+                                    <Height>0.35278cm</Height>
                                     <TablixCells>
                                       <TablixCell>
                                         <CellContents>
@@ -4891,7 +4432,7 @@ Cstr(Fields!CACCaption.Value)
                                     </TablixCells>
                                   </TablixRow>
                                   <TablixRow>
-                                    <Height>0.06944in</Height>
+                                    <Height>0.17638cm</Height>
                                     <TablixCells>
                                       <TablixCell>
                                         <CellContents>
@@ -4935,7 +4476,7 @@ Cstr(Fields!CACCaption.Value)
                                     </TablixCells>
                                   </TablixRow>
                                   <TablixRow>
-                                    <Height>0.06944in</Height>
+                                    <Height>0.17638cm</Height>
                                     <TablixCells>
                                       <TablixCell>
                                         <CellContents>
@@ -4973,7 +4514,7 @@ Cstr(Fields!CACCaption.Value)
                                     </TablixCells>
                                   </TablixRow>
                                   <TablixRow>
-                                    <Height>0.13889in</Height>
+                                    <Height>0.35278cm</Height>
                                     <TablixCells>
                                       <TablixCell>
                                         <CellContents>
@@ -5101,7 +4642,7 @@ Cstr(Fields!CACCaption.Value)
                                     </TablixCells>
                                   </TablixRow>
                                   <TablixRow>
-                                    <Height>0.06944in</Height>
+                                    <Height>0.17638cm</Height>
                                     <TablixCells>
                                       <TablixCell>
                                         <CellContents>
@@ -5203,7 +4744,7 @@ Cstr(Fields!CACCaption.Value)
                                     </TablixCells>
                                   </TablixRow>
                                   <TablixRow>
-                                    <Height>0.06944in</Height>
+                                    <Height>0.17638cm</Height>
                                     <TablixCells>
                                       <TablixCell>
                                         <CellContents>
@@ -5299,7 +4840,7 @@ Cstr(Fields!CACCaption.Value)
                                     </TablixCells>
                                   </TablixRow>
                                   <TablixRow>
-                                    <Height>0.13889in</Height>
+                                    <Height>0.35278cm</Height>
                                     <TablixCells>
                                       <TablixCell>
                                         <CellContents>
@@ -5488,9 +5029,10 @@ Cstr(Fields!CACCaption.Value)
                                 </Filter>
                               </Filters>
                               <Top>10.39135cm</Top>
-                              <Height>2.46941cm</Height>
-                              <Width>17.76029cm</Width>
-                              <ZIndex>5</ZIndex>
+                              <Left>0.0125in</Left>
+                              <Height>2.46942cm</Height>
+                              <Width>17.10905cm</Width>
+                              <ZIndex>3</ZIndex>
                               <Visibility>
                                 <Hidden>=IIF(Fields!VATAmtLineVATIdentifier3.Value="",TRUE,FALSE)</Hidden>
                               </Visibility>
@@ -5501,12 +5043,12 @@ Cstr(Fields!CACCaption.Value)
                               <TablixBody>
                                 <TablixColumns>
                                   <TablixColumn>
-                                    <Width>6.99224in</Width>
+                                    <Width>17.10904cm</Width>
                                   </TablixColumn>
                                 </TablixColumns>
                                 <TablixRows>
                                   <TablixRow>
-                                    <Height>0.13889in</Height>
+                                    <Height>0.35278cm</Height>
                                     <TablixCells>
                                       <TablixCell>
                                         <CellContents>
@@ -5541,7 +5083,7 @@ Cstr(Fields!CACCaption.Value)
                                     </TablixCells>
                                   </TablixRow>
                                   <TablixRow>
-                                    <Height>0.13889in</Height>
+                                    <Height>0.35278cm</Height>
                                     <TablixCells>
                                       <TablixCell>
                                         <CellContents>
@@ -5574,7 +5116,7 @@ Cstr(Fields!CACCaption.Value)
                                     </TablixCells>
                                   </TablixRow>
                                   <TablixRow>
-                                    <Height>0.13889in</Height>
+                                    <Height>0.35278cm</Height>
                                     <TablixCells>
                                       <TablixCell>
                                         <CellContents>
@@ -5606,7 +5148,7 @@ Cstr(Fields!CACCaption.Value)
                                     </TablixCells>
                                   </TablixRow>
                                   <TablixRow>
-                                    <Height>0.13889in</Height>
+                                    <Height>0.35278cm</Height>
                                     <TablixCells>
                                       <TablixCell>
                                         <CellContents>
@@ -5638,7 +5180,7 @@ Cstr(Fields!CACCaption.Value)
                                     </TablixCells>
                                   </TablixRow>
                                   <TablixRow>
-                                    <Height>0.13889in</Height>
+                                    <Height>0.35278cm</Height>
                                     <TablixCells>
                                       <TablixCell>
                                         <CellContents>
@@ -5670,7 +5212,7 @@ Cstr(Fields!CACCaption.Value)
                                     </TablixCells>
                                   </TablixRow>
                                   <TablixRow>
-                                    <Height>0.13889in</Height>
+                                    <Height>0.35278cm</Height>
                                     <TablixCells>
                                       <TablixCell>
                                         <CellContents>
@@ -5702,7 +5244,7 @@ Cstr(Fields!CACCaption.Value)
                                     </TablixCells>
                                   </TablixRow>
                                   <TablixRow>
-                                    <Height>0.13889in</Height>
+                                    <Height>0.35278cm</Height>
                                     <TablixCells>
                                       <TablixCell>
                                         <CellContents>
@@ -5734,7 +5276,7 @@ Cstr(Fields!CACCaption.Value)
                                     </TablixCells>
                                   </TablixRow>
                                   <TablixRow>
-                                    <Height>0.13889in</Height>
+                                    <Height>0.35278cm</Height>
                                     <TablixCells>
                                       <TablixCell>
                                         <CellContents>
@@ -5766,7 +5308,7 @@ Cstr(Fields!CACCaption.Value)
                                     </TablixCells>
                                   </TablixRow>
                                   <TablixRow>
-                                    <Height>0.13889in</Height>
+                                    <Height>0.35278cm</Height>
                                     <TablixCells>
                                       <TablixCell>
                                         <CellContents>
@@ -5798,7 +5340,7 @@ Cstr(Fields!CACCaption.Value)
                                     </TablixCells>
                                   </TablixRow>
                                   <TablixRow>
-                                    <Height>0.13889in</Height>
+                                    <Height>0.35278cm</Height>
                                     <TablixCells>
                                       <TablixCell>
                                         <CellContents>
@@ -5908,9 +5450,10 @@ Cstr(Fields!CACCaption.Value)
                                 </Filter>
                               </Filters>
                               <Top>13.62924cm</Top>
-                              <Height>3.52781cm</Height>
-                              <Width>17.76029cm</Width>
-                              <ZIndex>6</ZIndex>
+                              <Left>0.0125in</Left>
+                              <Height>3.5278cm</Height>
+                              <Width>17.10904cm</Width>
+                              <ZIndex>4</ZIndex>
                               <Visibility>
                                 <Hidden>=IIF(Fields!BuyfromVenNo_PurchHeader.Value=Fields!PaytoVendNo_PurchHeader.Value,TRUE,FALSE)</Hidden>
                               </Visibility>
@@ -5921,21 +5464,21 @@ Cstr(Fields!CACCaption.Value)
                               <TablixBody>
                                 <TablixColumns>
                                   <TablixColumn>
-                                    <Width>1.502in</Width>
+                                    <Width>3.65226cm</Width>
                                   </TablixColumn>
                                   <TablixColumn>
-                                    <Width>1.06893in</Width>
+                                    <Width>2.55226cm</Width>
                                   </TablixColumn>
                                   <TablixColumn>
-                                    <Width>2.76184in</Width>
+                                    <Width>6.85225cm</Width>
                                   </TablixColumn>
                                   <TablixColumn>
-                                    <Width>1.65948in</Width>
+                                    <Width>4.05226cm</Width>
                                   </TablixColumn>
                                 </TablixColumns>
                                 <TablixRows>
                                   <TablixRow>
-                                    <Height>0.13889in</Height>
+                                    <Height>0.35278cm</Height>
                                     <TablixCells>
                                       <TablixCell>
                                         <CellContents>
@@ -6004,7 +5547,7 @@ Cstr(Fields!CACCaption.Value)
                                     </TablixCells>
                                   </TablixRow>
                                   <TablixRow>
-                                    <Height>0.13889in</Height>
+                                    <Height>0.35278cm</Height>
                                     <TablixCells>
                                       <TablixCell>
                                         <CellContents>
@@ -6104,7 +5647,7 @@ Cstr(Fields!CACCaption.Value)
                                     </TablixCells>
                                   </TablixRow>
                                   <TablixRow>
-                                    <Height>0.06944in</Height>
+                                    <Height>0.17638cm</Height>
                                     <TablixCells>
                                       <TablixCell>
                                         <CellContents>
@@ -6148,7 +5691,7 @@ Cstr(Fields!CACCaption.Value)
                                     </TablixCells>
                                   </TablixRow>
                                   <TablixRow>
-                                    <Height>0.06944in</Height>
+                                    <Height>0.17638cm</Height>
                                     <TablixCells>
                                       <TablixCell>
                                         <CellContents>
@@ -6186,7 +5729,7 @@ Cstr(Fields!CACCaption.Value)
                                     </TablixCells>
                                   </TablixRow>
                                   <TablixRow>
-                                    <Height>0.13889in</Height>
+                                    <Height>0.35278cm</Height>
                                     <TablixCells>
                                       <TablixCell>
                                         <CellContents>
@@ -6282,7 +5825,7 @@ Cstr(Fields!CACCaption.Value)
                                     </TablixCells>
                                   </TablixRow>
                                   <TablixRow>
-                                    <Height>0.13889in</Height>
+                                    <Height>0.35278cm</Height>
                                     <TablixCells>
                                       <TablixCell>
                                         <CellContents>
@@ -6347,7 +5890,7 @@ Cstr(Fields!CACCaption.Value)
                                     </TablixCells>
                                   </TablixRow>
                                   <TablixRow>
-                                    <Height>0.13889in</Height>
+                                    <Height>0.35278cm</Height>
                                     <TablixCells>
                                       <TablixCell>
                                         <CellContents>
@@ -6467,7 +6010,7 @@ Cstr(Fields!CACCaption.Value)
                                     </TablixCells>
                                   </TablixRow>
                                   <TablixRow>
-                                    <Height>0.13889in</Height>
+                                    <Height>0.35278cm</Height>
                                     <TablixCells>
                                       <TablixCell>
                                         <CellContents>
@@ -6588,7 +6131,7 @@ Cstr(Fields!CACCaption.Value)
                                     </TablixCells>
                                   </TablixRow>
                                   <TablixRow>
-                                    <Height>0.13889in</Height>
+                                    <Height>0.35278cm</Height>
                                     <TablixCells>
                                       <TablixCell>
                                         <CellContents>
@@ -6707,7 +6250,7 @@ Cstr(Fields!CACCaption.Value)
                                     </TablixCells>
                                   </TablixRow>
                                   <TablixRow>
-                                    <Height>0.06944in</Height>
+                                    <Height>0.17638cm</Height>
                                     <TablixCells>
                                       <TablixCell>
                                         <CellContents>
@@ -6827,7 +6370,7 @@ Cstr(Fields!CACCaption.Value)
                                     </TablixCells>
                                   </TablixRow>
                                   <TablixRow>
-                                    <Height>0.06944in</Height>
+                                    <Height>0.17638cm</Height>
                                     <TablixCells>
                                       <TablixCell>
                                         <CellContents>
@@ -6954,7 +6497,7 @@ Cstr(Fields!CACCaption.Value)
                                     </TablixCells>
                                   </TablixRow>
                                   <TablixRow>
-                                    <Height>0.13889in</Height>
+                                    <Height>0.35278cm</Height>
                                     <TablixCells>
                                       <TablixCell>
                                         <CellContents>
@@ -7076,7 +6619,7 @@ Cstr(Fields!CACCaption.Value)
                                     </TablixCells>
                                   </TablixRow>
                                   <TablixRow>
-                                    <Height>0.13889in</Height>
+                                    <Height>0.35278cm</Height>
                                     <TablixCells>
                                       <TablixCell>
                                         <CellContents>
@@ -7196,7 +6739,7 @@ Cstr(Fields!CACCaption.Value)
                                     </TablixCells>
                                   </TablixRow>
                                   <TablixRow>
-                                    <Height>0.13889in</Height>
+                                    <Height>0.35278cm</Height>
                                     <TablixCells>
                                       <TablixCell>
                                         <CellContents>
@@ -7313,7 +6856,7 @@ Cstr(Fields!CACCaption.Value)
                                     </TablixCells>
                                   </TablixRow>
                                   <TablixRow>
-                                    <Height>0.06944in</Height>
+                                    <Height>0.17638cm</Height>
                                     <TablixCells>
                                       <TablixCell>
                                         <CellContents>
@@ -7447,7 +6990,7 @@ Cstr(Fields!CACCaption.Value)
                                     </TablixCells>
                                   </TablixRow>
                                   <TablixRow>
-                                    <Height>0.06944in</Height>
+                                    <Height>0.17638cm</Height>
                                     <TablixCells>
                                       <TablixCell>
                                         <CellContents>
@@ -7572,7 +7115,7 @@ Cstr(Fields!CACCaption.Value)
                                     </TablixCells>
                                   </TablixRow>
                                   <TablixRow>
-                                    <Height>0.13889in</Height>
+                                    <Height>0.35278cm</Height>
                                     <TablixCells>
                                       <TablixCell>
                                         <CellContents>
@@ -7822,10 +7365,11 @@ Cstr(Fields!CACCaption.Value)
                                   </FilterValues>
                                 </Filter>
                               </Filters>
-                              <Top>22.53911cm</Top>
-                              <Height>4.93885cm</Height>
-                              <Width>17.76032cm</Width>
-                              <ZIndex>7</ZIndex>
+                              <Top>17.60727cm</Top>
+                              <Left>0.0125in</Left>
+                              <Height>4.93886cm</Height>
+                              <Width>17.10903cm</Width>
+                              <ZIndex>5</ZIndex>
                               <Visibility>
                                 <Hidden>=IIF(Fields!PrepmtInvBufGLAccNo.Value="",TRUE,FALSE)</Hidden>
                               </Visibility>
@@ -7836,24 +7380,24 @@ Cstr(Fields!CACCaption.Value)
                               <TablixBody>
                                 <TablixColumns>
                                   <TablixColumn>
-                                    <Width>1.28076in</Width>
+                                    <Width>3.12267cm</Width>
                                   </TablixColumn>
                                   <TablixColumn>
-                                    <Width>1.27991in</Width>
+                                    <Width>3.12051cm</Width>
                                   </TablixColumn>
                                   <TablixColumn>
-                                    <Width>1.47761in</Width>
+                                    <Width>3.62267cm</Width>
                                   </TablixColumn>
                                   <TablixColumn>
-                                    <Width>1.47676in</Width>
+                                    <Width>3.62051cm</Width>
                                   </TablixColumn>
                                   <TablixColumn>
-                                    <Width>1.47761in</Width>
+                                    <Width>3.62267cm</Width>
                                   </TablixColumn>
                                 </TablixColumns>
                                 <TablixRows>
                                   <TablixRow>
-                                    <Height>0.13889in</Height>
+                                    <Height>0.35278cm</Height>
                                     <TablixCells>
                                       <TablixCell>
                                         <CellContents>
@@ -7950,7 +7494,7 @@ Cstr(Fields!CACCaption.Value)
                                     </TablixCells>
                                   </TablixRow>
                                   <TablixRow>
-                                    <Height>0.13889in</Height>
+                                    <Height>0.35278cm</Height>
                                     <TablixCells>
                                       <TablixCell>
                                         <CellContents>
@@ -8116,7 +7660,7 @@ Cstr(Fields!CACCaption.Value)
                                     </TablixCells>
                                   </TablixRow>
                                   <TablixRow>
-                                    <Height>0.06944in</Height>
+                                    <Height>0.17638cm</Height>
                                     <TablixCells>
                                       <TablixCell>
                                         <CellContents>
@@ -8161,7 +7705,7 @@ Cstr(Fields!CACCaption.Value)
                                     </TablixCells>
                                   </TablixRow>
                                   <TablixRow>
-                                    <Height>0.06944in</Height>
+                                    <Height>0.17638cm</Height>
                                     <TablixCells>
                                       <TablixCell>
                                         <CellContents>
@@ -8200,7 +7744,7 @@ Cstr(Fields!CACCaption.Value)
                                     </TablixCells>
                                   </TablixRow>
                                   <TablixRow>
-                                    <Height>0.13889in</Height>
+                                    <Height>0.35278cm</Height>
                                     <TablixCells>
                                       <TablixCell>
                                         <CellContents>
@@ -8361,7 +7905,7 @@ Cstr(Fields!CACCaption.Value)
                                     </TablixCells>
                                   </TablixRow>
                                   <TablixRow>
-                                    <Height>0.06944in</Height>
+                                    <Height>0.17638cm</Height>
                                     <TablixCells>
                                       <TablixCell>
                                         <CellContents>
@@ -8438,7 +7982,7 @@ Cstr(Fields!CACCaption.Value)
                                     </TablixCells>
                                   </TablixRow>
                                   <TablixRow>
-                                    <Height>0.06944in</Height>
+                                    <Height>0.17638cm</Height>
                                     <TablixCells>
                                       <TablixCell>
                                         <CellContents>
@@ -8509,7 +8053,7 @@ Cstr(Fields!CACCaption.Value)
                                     </TablixCells>
                                   </TablixRow>
                                   <TablixRow>
-                                    <Height>0.13889in</Height>
+                                    <Height>0.35278cm</Height>
                                     <TablixCells>
                                       <TablixCell>
                                         <CellContents>
@@ -8732,10 +8276,11 @@ Cstr(Fields!CACCaption.Value)
                                   </FilterValues>
                                 </Filter>
                               </Filters>
-                              <Top>28.27575cm</Top>
-                              <Height>2.11663cm</Height>
-                              <Width>17.76133cm</Width>
-                              <ZIndex>8</ZIndex>
+                              <Top>23.34391cm</Top>
+                              <Left>0.0125in</Left>
+                              <Height>2.11664cm</Height>
+                              <Width>17.10903cm</Width>
+                              <ZIndex>6</ZIndex>
                               <Visibility>
                                 <Hidden>=IIF(Fields!PrepmtVATAmtSpecCaption.Value="",TRUE,FALSE)</Hidden>
                               </Visibility>
@@ -8804,23 +8349,774 @@ Cstr(Fields!CACCaption.Value)
             <PageBreak>
               <BreakLocation>End</BreakLocation>
             </PageBreak>
-            <Height>31.58947cm</Height>
-            <Width>17.76031cm</Width>
+            <Top>0.39742in</Top>
+            <Left>0.33526in</Left>
+            <Height>26.8693cm</Height>
+            <Width>17.14079cm</Width>
             <Style>
               <FontWeight>Bold</FontWeight>
             </Style>
           </Tablix>
+          <Tablix Name="table11">
+            <TablixBody>
+              <TablixColumns>
+                <TablixColumn>
+                  <Width>1.30006cm</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>1.32612cm</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>1.78021cm</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>0.77322cm</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>0.57506cm</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>1.56414cm</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>1.73259cm</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>2.51115cm</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>2.14478cm</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>1.43569cm</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>1.96601cm</Width>
+                </TablixColumn>
+              </TablixColumns>
+              <TablixRows>
+                <TablixRow>
+                  <Height>0.62795cm</Height>
+                  <TablixCells>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox6">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value />
+                                  <Style>
+                                    <FontStyle>Normal</FontStyle>
+                                    <FontFamily>Segoe UI</FontFamily>
+                                    <FontSize>8pt</FontSize>
+                                    <Color>DodgerBlue</Color>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox6</rd:DefaultName>
+                          <Style>
+                            <VerticalAlign>Middle</VerticalAlign>
+                            <PaddingRight>5pt</PaddingRight>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="STRSUBSTNOText004CopyText">
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Fields!OrderCopyText.Value</Value>
+                                  <Style>
+                                    <FontStyle>Normal</FontStyle>
+                                    <FontFamily>Segoe UI</FontFamily>
+                                    <FontSize>8pt</FontSize>
+                                    <Color>#ff0000</Color>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <ZIndex>9</ZIndex>
+                          <Visibility>
+                            <Hidden>true</Hidden>
+                          </Visibility>
+                          <Style>
+                            <VerticalAlign>Middle</VerticalAlign>
+                            <PaddingRight>5pt</PaddingRight>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="BuyFromAddr">
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value />
+                                  <Style>
+                                    <FontStyle>Normal</FontStyle>
+                                    <FontFamily>Segoe UI</FontFamily>
+                                    <FontSize>8pt</FontSize>
+                                    <Color>DodgerBlue</Color>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <ZIndex>8</ZIndex>
+                          <Visibility>
+                            <Hidden>=Code.SetData(Cstr(Fields!BuyFromAddr1.Value) + Chr(177) + 
+Cstr(Fields!BuyFromAddr2.Value) + Chr(177) + 
+Cstr(Fields!BuyFromAddr3.Value) + Chr(177) + 
+Cstr(Fields!BuyFromAddr4.Value) + Chr(177) + 
+Cstr(Fields!BuyFromAddr5.Value) + Chr(177) + 
+Cstr(Fields!BuyFromAddr6.Value) + Chr(177) + 
+Cstr(Fields!BuyFromAddr7.Value) + Chr(177) + 
+Cstr(Fields!BuyFromAddr8.Value) + Chr(177) + 
+Cstr(Fields!CompanyAddr1.Value) + Chr(177) + 
+Cstr(Fields!CompanyAddr2.Value) + Chr(177) + 
+Cstr(Fields!CompanyAddr3.Value) + Chr(177) + 
+Cstr(Fields!CompanyAddr4.Value) + Chr(177) + 
+Cstr(Fields!CompanyAddr5.Value) + Chr(177) + 
+Cstr(Fields!CompanyAddr6.Value) + Chr(177) + 
+Cstr(Fields!OrderCopyText.Value) + Chr(177) + 
+Cstr(Fields!CompanyInfoPhoneNo.Value) + Chr(177) + 
+Cstr(Fields!CompanyInfoVATRegNo.Value) + Chr(177) + 
+Cstr(Fields!CompanyInfoGiroNo.Value) + Chr(177) + 
+Cstr(Fields!CompanyInfoBankName.Value) + Chr(177) + 
+Cstr(Fields!CompanyInfoBankAccNo.Value) + Chr(177) + 
+Cstr(Fields!DocDate_PurchHeader.Value) + Chr(177) + 
+Cstr(Fields!No_PurchHeader.Value) + Chr(177) + 
+Cstr(Fields!PricesInclVATtxt.Value) + Chr(177) + 
+Cstr(Fields!BuyfromVenNo_PurchHeader.Value) + Chr(177) + 
+Cstr(Fields!VATRegNo_PurchHeader.Value) + Chr(177) + 
+Cstr(Fields!SalesPurchPersonName.Value) + Chr(177) + 
+Cstr(Fields!YourReference_PurchHeader.Value) + Chr(177) + 
+Cstr(Fields!CompanyInfoHomepage.Value) + Chr(177) + 
+Cstr(Fields!CompanyInfoEmail.Value) + Chr(177) + 
+Cstr(Fields!PrepmtPayTermsDesc.Value) + Chr(177) + 
+Cstr(Fields!PayTermsDesc.Value) + Chr(177) + 
+Cstr(Fields!ShipMethodDesc.Value) + Chr(177) + 
+Cstr(Fields!BuyfromVenNo_PurchHeaderCaption.Value) + Chr(177) + 
+Cstr(Fields!ReferenceText.Value) + Chr(177) + 
+Cstr(Fields!PurchaserText.Value) + Chr(177) + 
+Cstr(Fields!VATNoText.Value) + Chr(177) + 
+Cstr(Fields!PricesIncludingVAT_PurchHeaderCaption.Value) + Chr(177) + 
+Cstr(Fields!OrderNoCaption.Value) + Chr(177) + 
+Cstr(Fields!BankAccNoCaption.Value) + Chr(177) + 
+Cstr(Fields!BankCaption.Value) + Chr(177) + 
+Cstr(Fields!GiroNoCaption.Value) + Chr(177) + 
+Cstr(Fields!VATRegNoCaption.Value) + Chr(177) + 
+Cstr(Fields!PhoneNoCaption.Value) + Chr(177) + 
+Cstr(Fields!PageCaption.Value) + Chr(177) + 
+Cstr(Fields!DocDateCaption.Value) + Chr(177) + 
+Cstr(Fields!EmailCaption.Value) + Chr(177) + 
+Cstr(Fields!HomepageCaption.Value) + Chr(177) + 
+Cstr(Fields!PaymentTermsCaption.Value) + Chr(177) + 
+Cstr(Fields!ShpMethodCaption.Value) + Chr(177) + 
+Cstr(Fields!PrePmtTermsDescCaption.Value) + Chr(177) + 
+Cstr(Fields!CACCaption.Value) + Chr(177) + 
+Cstr(Fields!NMCompanyInfoName.Value) + Chr(177) +
+Cstr(Fields!NMPurchaseOrderCaption.Value) + Chr(177) +
+Cstr(Fields!NMPurchaseOrderDateCaption.Value) + Chr(177) +
+Cstr(Fields!NMPurchaseOrderDate.Value) + Chr(177) +
+Cstr(Fields!NMPurchaseOrderNumberCaption.Value) + Chr(177) +
+Cstr(Fields!NMPurchaseOrderNumber.Value) + Chr(177) +
+Cstr(Fields!NMTicketNumberCaption.Value)
+, 1)</Hidden>
+                          </Visibility>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <VerticalAlign>Middle</VerticalAlign>
+                            <PaddingRight>5pt</PaddingRight>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox7">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value />
+                                  <Style>
+                                    <FontStyle>Normal</FontStyle>
+                                    <FontFamily>Segoe UI</FontFamily>
+                                    <FontSize>8pt</FontSize>
+                                    <Color>#ff0000</Color>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox7</rd:DefaultName>
+                          <Style>
+                            <VerticalAlign>Middle</VerticalAlign>
+                            <PaddingRight>5pt</PaddingRight>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="PurchHeaderInfo1">
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value />
+                                  <Style>
+                                    <FontStyle>Normal</FontStyle>
+                                    <FontFamily>Segoe UI</FontFamily>
+                                    <FontSize>8pt</FontSize>
+                                    <Color>#ff0000</Color>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <ZIndex>6</ZIndex>
+                          <Visibility>
+                            <Hidden>true</Hidden>
+                          </Visibility>
+                          <Style>
+                            <VerticalAlign>Middle</VerticalAlign>
+                            <PaddingRight>5pt</PaddingRight>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="FORMATPurchaseHeaderDocumentDate04">
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Fields!DocDate_PurchHeader.Value</Value>
+                                  <Style>
+                                    <FontStyle>Normal</FontStyle>
+                                    <FontFamily>Segoe UI</FontFamily>
+                                    <FontSize>8pt</FontSize>
+                                    <Color>#ff0000</Color>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <ZIndex>5</ZIndex>
+                          <Visibility>
+                            <Hidden>true</Hidden>
+                          </Visibility>
+                          <Style>
+                            <VerticalAlign>Middle</VerticalAlign>
+                            <PaddingRight>5pt</PaddingRight>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="PageCaption">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Fields!PageCaption.Value</Value>
+                                  <Style>
+                                    <FontStyle>Normal</FontStyle>
+                                    <FontFamily>Segoe UI</FontFamily>
+                                    <FontSize>8pt</FontSize>
+                                    <Color>#ff0000</Color>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <ZIndex>4</ZIndex>
+                          <Visibility>
+                            <Hidden>true</Hidden>
+                          </Visibility>
+                          <Style>
+                            <VerticalAlign>Middle</VerticalAlign>
+                            <PaddingRight>5pt</PaddingRight>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="PurchaseHeaderDocumentType">
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Fields!DocType_PurchHeader.Value</Value>
+                                  <Style>
+                                    <FontStyle>Normal</FontStyle>
+                                    <FontFamily>Segoe UI</FontFamily>
+                                    <FontSize>8pt</FontSize>
+                                    <Color>Red</Color>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <ZIndex>3</ZIndex>
+                          <Visibility>
+                            <Hidden>true</Hidden>
+                          </Visibility>
+                          <Style>
+                            <VerticalAlign>Middle</VerticalAlign>
+                            <PaddingRight>5pt</PaddingRight>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="PurchaseHeaderNo">
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Fields!No_PurchHeader.Value</Value>
+                                  <Style>
+                                    <FontStyle>Normal</FontStyle>
+                                    <FontFamily>Segoe UI</FontFamily>
+                                    <FontSize>8pt</FontSize>
+                                    <Color>Red</Color>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <ZIndex>2</ZIndex>
+                          <Visibility>
+                            <Hidden>true</Hidden>
+                          </Visibility>
+                          <Style>
+                            <VerticalAlign>Middle</VerticalAlign>
+                            <PaddingRight>5pt</PaddingRight>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="OutputNo">
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Fields!OutputNo.Value</Value>
+                                  <Style>
+                                    <FontStyle>Normal</FontStyle>
+                                    <FontFamily>Segoe UI</FontFamily>
+                                    <FontSize>8pt</FontSize>
+                                    <Color>Red</Color>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <ZIndex>1</ZIndex>
+                          <Visibility>
+                            <Hidden>true</Hidden>
+                          </Visibility>
+                          <Style>
+                            <VerticalAlign>Middle</VerticalAlign>
+                            <PaddingRight>5pt</PaddingRight>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="NewPage">
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=IIF(Code.IsNewPage(Fields!DocType_PurchHeader.Value,Fields!No_PurchHeader.Value,Fields!OutputNo.Value),TRUE,FALSE)</Value>
+                                  <Style>
+                                    <Color>Red</Color>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <Visibility>
+                            <Hidden>true</Hidden>
+                          </Visibility>
+                          <Style>
+                            <VerticalAlign>Middle</VerticalAlign>
+                            <PaddingRight>5pt</PaddingRight>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                  </TablixCells>
+                </TablixRow>
+              </TablixRows>
+            </TablixBody>
+            <TablixColumnHierarchy>
+              <TablixMembers>
+                <TablixMember />
+                <TablixMember />
+                <TablixMember />
+                <TablixMember />
+                <TablixMember />
+                <TablixMember />
+                <TablixMember />
+                <TablixMember />
+                <TablixMember />
+                <TablixMember />
+                <TablixMember />
+              </TablixMembers>
+            </TablixColumnHierarchy>
+            <TablixRowHierarchy>
+              <TablixMembers>
+                <TablixMember>
+                  <KeepWithGroup>After</KeepWithGroup>
+                  <KeepTogether>true</KeepTogether>
+                </TablixMember>
+              </TablixMembers>
+            </TablixRowHierarchy>
+            <DataSetName>DataSet_Result</DataSetName>
+            <Top>0.08075in</Top>
+            <Left>0.33526in</Left>
+            <Height>0.62795cm</Height>
+            <Width>17.10903cm</Width>
+            <ZIndex>1</ZIndex>
+            <Visibility>
+              <Hidden>true</Hidden>
+            </Visibility>
+            <Style />
+          </Tablix>
         </ReportItems>
-        <Height>31.58947cm</Height>
+        <Height>28.35097cm</Height>
         <Style />
       </Body>
-      <Width>17.78315cm</Width>
+      <Width>18.69511cm</Width>
       <Page>
         <PageHeader>
-          <Height>8.17562cm</Height>
+          <Height>10.51631cm</Height>
           <PrintOnFirstPage>true</PrintOnFirstPage>
           <PrintOnLastPage>true</PrintOnLastPage>
           <ReportItems>
+            <Textbox Name="textbox98">
+              <KeepTogether>true</KeepTogether>
+              <Paragraphs>
+                <Paragraph>
+                  <TextRuns>
+                    <TextRun>
+                      <Value>=Code.GetData(53,1)</Value>
+                      <Style>
+                        <FontFamily>Segoe UI</FontFamily>
+                        <FontSize>18pt</FontSize>
+                        <FontWeight>Bold</FontWeight>
+                      </Style>
+                    </TextRun>
+                  </TextRuns>
+                  <Style>
+                    <TextAlign>Center</TextAlign>
+                  </Style>
+                </Paragraph>
+              </Paragraphs>
+              <Top>13.8pt</Top>
+              <Left>4.48183cm</Left>
+              <Height>49.7pt</Height>
+              <Width>8.6524cm</Width>
+              <Style>
+                <Border>
+                  <Style>None</Style>
+                </Border>
+                <LeftBorder>
+                  <Style>Solid</Style>
+                </LeftBorder>
+                <RightBorder>
+                  <Style>Solid</Style>
+                </RightBorder>
+                <BackgroundColor>Silver</BackgroundColor>
+                <VerticalAlign>Middle</VerticalAlign>
+              </Style>
+            </Textbox>
+            <Textbox Name="textbox100">
+              <KeepTogether>true</KeepTogether>
+              <Paragraphs>
+                <Paragraph>
+                  <TextRuns>
+                    <TextRun>
+                      <Value>=UCase(Code.GetData(52,1))</Value>
+                      <Style>
+                        <FontFamily>Segoe UI</FontFamily>
+                        <FontSize>12pt</FontSize>
+                      </Style>
+                    </TextRun>
+                  </TextRuns>
+                  <Style>
+                    <TextAlign>Center</TextAlign>
+                  </Style>
+                </Paragraph>
+              </Paragraphs>
+              <Top>13.8pt</Top>
+              <Left>0.85156cm</Left>
+              <Height>49.7pt</Height>
+              <Width>3.63027cm</Width>
+              <ZIndex>1</ZIndex>
+              <Style>
+                <Border>
+                  <Style>None</Style>
+                </Border>
+                <VerticalAlign>Middle</VerticalAlign>
+              </Style>
+            </Textbox>
+            <Textbox Name="textbox101">
+              <KeepTogether>true</KeepTogether>
+              <Paragraphs>
+                <Paragraph>
+                  <TextRuns>
+                    <TextRun>
+                      <Value>=Code.GetData(54,1)</Value>
+                      <Style>
+                        <FontFamily>Segoe UI</FontFamily>
+                        <FontSize>8pt</FontSize>
+                        <FontWeight>Bold</FontWeight>
+                      </Style>
+                    </TextRun>
+                  </TextRuns>
+                  <Style>
+                    <TextAlign>Right</TextAlign>
+                  </Style>
+                </Paragraph>
+              </Paragraphs>
+              <Top>13.8pt</Top>
+              <Left>13.15381cm</Left>
+              <Height>16.6pt</Height>
+              <Width>2.68171cm</Width>
+              <ZIndex>2</ZIndex>
+              <Style>
+                <Border>
+                  <Style>None</Style>
+                </Border>
+                <VerticalAlign>Top</VerticalAlign>
+                <PaddingRight>2pt</PaddingRight>
+                <PaddingTop>5pt</PaddingTop>
+              </Style>
+            </Textbox>
+            <Rectangle Name="Rectangle1">
+              <KeepTogether>true</KeepTogether>
+              <Top>0.48683cm</Top>
+              <Left>0.85155cm</Left>
+              <Height>1.75331cm</Height>
+              <Width>17.10904cm</Width>
+              <ZIndex>3</ZIndex>
+              <Style>
+                <Border>
+                  <Style>Solid</Style>
+                </Border>
+              </Style>
+            </Rectangle>
+            <Textbox Name="textbox110">
+              <KeepTogether>true</KeepTogether>
+              <Paragraphs>
+                <Paragraph>
+                  <TextRuns>
+                    <TextRun>
+                      <Value>=Code.GetData(55,1)</Value>
+                      <Style>
+                        <FontFamily>Segoe UI</FontFamily>
+                        <FontSize>8pt</FontSize>
+                        <FontWeight>Bold</FontWeight>
+                      </Style>
+                    </TextRun>
+                  </TextRuns>
+                  <Style>
+                    <TextAlign>Left</TextAlign>
+                  </Style>
+                </Paragraph>
+              </Paragraphs>
+              <Top>13.8pt</Top>
+              <Left>15.83552cm</Left>
+              <Height>16.6pt</Height>
+              <Width>2.12508cm</Width>
+              <ZIndex>4</ZIndex>
+              <Style>
+                <Border>
+                  <Style>None</Style>
+                </Border>
+                <VerticalAlign>Top</VerticalAlign>
+                <PaddingTop>5pt</PaddingTop>
+              </Style>
+            </Textbox>
+            <Textbox Name="textbox102">
+              <KeepTogether>true</KeepTogether>
+              <Paragraphs>
+                <Paragraph>
+                  <TextRuns>
+                    <TextRun>
+                      <Value>=Code.GetData(58,1)</Value>
+                      <Style>
+                        <FontFamily>Segoe UI</FontFamily>
+                        <FontSize>8pt</FontSize>
+                        <FontWeight>Bold</FontWeight>
+                      </Style>
+                    </TextRun>
+                  </TextRuns>
+                  <Style>
+                    <TextAlign>Right</TextAlign>
+                  </Style>
+                </Paragraph>
+              </Paragraphs>
+              <Top>46.9pt</Top>
+              <Left>13.15381cm</Left>
+              <Height>16.6pt</Height>
+              <Width>2.68171cm</Width>
+              <ZIndex>5</ZIndex>
+              <Style>
+                <Border>
+                  <Style>None</Style>
+                </Border>
+                <VerticalAlign>Top</VerticalAlign>
+                <PaddingRight>2pt</PaddingRight>
+                <PaddingTop>5pt</PaddingTop>
+              </Style>
+            </Textbox>
+            <Textbox Name="textbox114">
+              <KeepTogether>true</KeepTogether>
+              <Paragraphs>
+                <Paragraph>
+                  <TextRuns>
+                    <TextRun>
+                      <Value>OPCIONAL</Value>
+                      <Style>
+                        <FontFamily>Segoe UI</FontFamily>
+                        <FontSize>8pt</FontSize>
+                        <FontWeight>Bold</FontWeight>
+                      </Style>
+                    </TextRun>
+                  </TextRuns>
+                  <Style>
+                    <TextAlign>Left</TextAlign>
+                  </Style>
+                </Paragraph>
+              </Paragraphs>
+              <Top>46.9pt</Top>
+              <Left>15.83552cm</Left>
+              <Height>16.6pt</Height>
+              <Width>2.12508cm</Width>
+              <ZIndex>6</ZIndex>
+              <Style>
+                <Border>
+                  <Style>None</Style>
+                </Border>
+                <VerticalAlign>Top</VerticalAlign>
+                <PaddingTop>5pt</PaddingTop>
+              </Style>
+            </Textbox>
+            <Textbox Name="textbox106">
+              <KeepTogether>true</KeepTogether>
+              <Paragraphs>
+                <Paragraph>
+                  <TextRuns>
+                    <TextRun>
+                      <Value>=Code.GetData(56,1)</Value>
+                      <Style>
+                        <FontFamily>Segoe UI</FontFamily>
+                        <FontSize>8pt</FontSize>
+                        <FontWeight>Bold</FontWeight>
+                      </Style>
+                    </TextRun>
+                  </TextRuns>
+                  <Style>
+                    <TextAlign>Right</TextAlign>
+                  </Style>
+                </Paragraph>
+              </Paragraphs>
+              <Top>30.3pt</Top>
+              <Left>13.15381cm</Left>
+              <Height>16.6pt</Height>
+              <Width>2.68171cm</Width>
+              <ZIndex>7</ZIndex>
+              <Style>
+                <Border>
+                  <Style>None</Style>
+                </Border>
+                <VerticalAlign>Top</VerticalAlign>
+                <PaddingRight>2pt</PaddingRight>
+                <PaddingTop>5pt</PaddingTop>
+              </Style>
+            </Textbox>
+            <Textbox Name="textbox117">
+              <KeepTogether>true</KeepTogether>
+              <Paragraphs>
+                <Paragraph>
+                  <TextRuns>
+                    <TextRun>
+                      <Value>=Code.GetData(57,1)</Value>
+                      <Style>
+                        <FontFamily>Segoe UI</FontFamily>
+                        <FontSize>8pt</FontSize>
+                        <FontWeight>Bold</FontWeight>
+                      </Style>
+                    </TextRun>
+                  </TextRuns>
+                  <Style>
+                    <TextAlign>Left</TextAlign>
+                  </Style>
+                </Paragraph>
+              </Paragraphs>
+              <Top>30.3pt</Top>
+              <Left>15.83552cm</Left>
+              <Height>16.6pt</Height>
+              <Width>2.12508cm</Width>
+              <ZIndex>8</ZIndex>
+              <Style>
+                <Border>
+                  <Style>None</Style>
+                </Border>
+                <VerticalAlign>Top</VerticalAlign>
+                <PaddingTop>5pt</PaddingTop>
+              </Style>
+            </Textbox>
             <Textbox Name="PurchaseHeaderBuyfromVendorNoCaption1">
               <KeepTogether>true</KeepTogether>
               <Paragraphs>
@@ -8838,9 +9134,11 @@ Cstr(Fields!CACCaption.Value)
                   <Style />
                 </Paragraph>
               </Paragraphs>
-              <Top>131pt</Top>
+              <Top>193.78756pt</Top>
+              <Left>0.17952in</Left>
               <Height>11pt</Height>
               <Width>3.98498cm</Width>
+              <ZIndex>9</ZIndex>
               <Style>
                 <VerticalAlign>Middle</VerticalAlign>
               </Style>
@@ -8864,11 +9162,11 @@ Cstr(Fields!CACCaption.Value)
                   </Style>
                 </Paragraph>
               </Paragraphs>
-              <Top>131pt</Top>
-              <Left>4.05554cm</Left>
+              <Top>193.78756pt</Top>
+              <Left>4.51152cm</Left>
               <Height>11pt</Height>
               <Width>6.33806cm</Width>
-              <ZIndex>1</ZIndex>
+              <ZIndex>10</ZIndex>
               <Style>
                 <VerticalAlign>Middle</VerticalAlign>
               </Style>
@@ -8890,11 +9188,11 @@ Cstr(Fields!CACCaption.Value)
                   <Style />
                 </Paragraph>
               </Paragraphs>
-              <Top>121pt</Top>
-              <Left>4.05554cm</Left>
+              <Top>183.78756pt</Top>
+              <Left>4.51152cm</Left>
               <Height>11pt</Height>
               <Width>6.33806cm</Width>
-              <ZIndex>2</ZIndex>
+              <ZIndex>11</ZIndex>
               <Style>
                 <VerticalAlign>Middle</VerticalAlign>
               </Style>
@@ -8916,10 +9214,11 @@ Cstr(Fields!CACCaption.Value)
                   <Style />
                 </Paragraph>
               </Paragraphs>
-              <Top>121pt</Top>
+              <Top>183.78756pt</Top>
+              <Left>0.17952in</Left>
               <Height>11pt</Height>
               <Width>3.98498cm</Width>
-              <ZIndex>3</ZIndex>
+              <ZIndex>12</ZIndex>
               <Style>
                 <VerticalAlign>Middle</VerticalAlign>
               </Style>
@@ -8943,11 +9242,11 @@ Cstr(Fields!CACCaption.Value)
                   </Style>
                 </Paragraph>
               </Paragraphs>
-              <Top>172pt</Top>
-              <Left>13.79314cm</Left>
+              <Top>234.78756pt</Top>
+              <Left>14.24912cm</Left>
               <Height>11pt</Height>
               <Width>3.99cm</Width>
-              <ZIndex>4</ZIndex>
+              <ZIndex>13</ZIndex>
               <Style>
                 <VerticalAlign>Middle</VerticalAlign>
               </Style>
@@ -8969,11 +9268,11 @@ Cstr(Fields!CACCaption.Value)
                   <Style />
                 </Paragraph>
               </Paragraphs>
-              <Top>172pt</Top>
-              <Left>10.53471cm</Left>
+              <Top>234.78756pt</Top>
+              <Left>10.9907cm</Left>
               <Height>11pt</Height>
               <Width>3.1526cm</Width>
-              <ZIndex>5</ZIndex>
+              <ZIndex>14</ZIndex>
               <Style>
                 <VerticalAlign>Middle</VerticalAlign>
               </Style>
@@ -8995,11 +9294,11 @@ Cstr(Fields!CACCaption.Value)
                   <Style />
                 </Paragraph>
               </Paragraphs>
-              <Top>110pt</Top>
-              <Left>4.05554cm</Left>
+              <Top>172.78756pt</Top>
+              <Left>4.51152cm</Left>
               <Height>11pt</Height>
               <Width>6.33806cm</Width>
-              <ZIndex>6</ZIndex>
+              <ZIndex>15</ZIndex>
               <Style>
                 <VerticalAlign>Middle</VerticalAlign>
               </Style>
@@ -9021,10 +9320,11 @@ Cstr(Fields!CACCaption.Value)
                   <Style />
                 </Paragraph>
               </Paragraphs>
-              <Top>110pt</Top>
+              <Top>172.78756pt</Top>
+              <Left>0.17952in</Left>
               <Height>11pt</Height>
               <Width>3.98498cm</Width>
-              <ZIndex>7</ZIndex>
+              <ZIndex>16</ZIndex>
               <Style>
                 <VerticalAlign>Middle</VerticalAlign>
               </Style>
@@ -9046,10 +9346,11 @@ Cstr(Fields!CACCaption.Value)
                   <Style />
                 </Paragraph>
               </Paragraphs>
-              <Top>192pt</Top>
+              <Top>254.78756pt</Top>
+              <Left>0.17952in</Left>
               <Height>11pt</Height>
               <Width>3.98498cm</Width>
-              <ZIndex>9</ZIndex>
+              <ZIndex>17</ZIndex>
               <Style>
                 <Border />
                 <VerticalAlign>Middle</VerticalAlign>
@@ -9072,10 +9373,11 @@ Cstr(Fields!CACCaption.Value)
                   <Style />
                 </Paragraph>
               </Paragraphs>
-              <Top>142pt</Top>
+              <Top>204.78756pt</Top>
+              <Left>0.17952in</Left>
               <Height>11pt</Height>
               <Width>3.98498cm</Width>
-              <ZIndex>10</ZIndex>
+              <ZIndex>18</ZIndex>
               <Style>
                 <VerticalAlign>Middle</VerticalAlign>
               </Style>
@@ -9097,11 +9399,11 @@ Cstr(Fields!CACCaption.Value)
                   <Style />
                 </Paragraph>
               </Paragraphs>
-              <Top>162pt</Top>
-              <Left>10.53471cm</Left>
+              <Top>224.78756pt</Top>
+              <Left>10.9907cm</Left>
               <Height>11pt</Height>
               <Width>3.1526cm</Width>
-              <ZIndex>11</ZIndex>
+              <ZIndex>19</ZIndex>
               <Style>
                 <VerticalAlign>Middle</VerticalAlign>
               </Style>
@@ -9123,11 +9425,11 @@ Cstr(Fields!CACCaption.Value)
                   <Style />
                 </Paragraph>
               </Paragraphs>
-              <Top>152pt</Top>
-              <Left>10.53471cm</Left>
+              <Top>214.78756pt</Top>
+              <Left>10.9907cm</Left>
               <Height>11pt</Height>
               <Width>3.1526cm</Width>
-              <ZIndex>12</ZIndex>
+              <ZIndex>20</ZIndex>
               <Style>
                 <VerticalAlign>Middle</VerticalAlign>
               </Style>
@@ -9149,11 +9451,11 @@ Cstr(Fields!CACCaption.Value)
                   <Style />
                 </Paragraph>
               </Paragraphs>
-              <Top>142pt</Top>
-              <Left>10.53471cm</Left>
+              <Top>204.78756pt</Top>
+              <Left>10.9907cm</Left>
               <Height>11pt</Height>
               <Width>3.1526cm</Width>
-              <ZIndex>13</ZIndex>
+              <ZIndex>21</ZIndex>
               <Style>
                 <VerticalAlign>Middle</VerticalAlign>
               </Style>
@@ -9175,11 +9477,11 @@ Cstr(Fields!CACCaption.Value)
                   <Style />
                 </Paragraph>
               </Paragraphs>
-              <Top>131pt</Top>
-              <Left>10.53471cm</Left>
+              <Top>193.78756pt</Top>
+              <Left>10.9907cm</Left>
               <Height>11pt</Height>
               <Width>3.1526cm</Width>
-              <ZIndex>14</ZIndex>
+              <ZIndex>22</ZIndex>
               <Style>
                 <VerticalAlign>Middle</VerticalAlign>
               </Style>
@@ -9201,11 +9503,11 @@ Cstr(Fields!CACCaption.Value)
                   <Style />
                 </Paragraph>
               </Paragraphs>
-              <Top>100pt</Top>
-              <Left>10.53471cm</Left>
+              <Top>162.78756pt</Top>
+              <Left>10.9907cm</Left>
               <Height>11pt</Height>
               <Width>3.1526cm</Width>
-              <ZIndex>15</ZIndex>
+              <ZIndex>23</ZIndex>
               <Style>
                 <Border />
                 <VerticalAlign>Middle</VerticalAlign>
@@ -9230,11 +9532,11 @@ Cstr(Fields!CACCaption.Value)
                   </Style>
                 </Paragraph>
               </Paragraphs>
-              <Top>90pt</Top>
-              <Left>10.53471cm</Left>
+              <Top>152.78756pt</Top>
+              <Left>10.9907cm</Left>
               <Height>11pt</Height>
               <Width>7.24843cm</Width>
-              <ZIndex>16</ZIndex>
+              <ZIndex>24</ZIndex>
               <Style>
                 <VerticalAlign>Middle</VerticalAlign>
               </Style>
@@ -9258,11 +9560,11 @@ Cstr(Fields!CACCaption.Value)
                   </Style>
                 </Paragraph>
               </Paragraphs>
-              <Top>80pt</Top>
-              <Left>10.53471cm</Left>
+              <Top>142.78756pt</Top>
+              <Left>10.9907cm</Left>
               <Height>11pt</Height>
               <Width>7.24843cm</Width>
-              <ZIndex>17</ZIndex>
+              <ZIndex>25</ZIndex>
               <Style>
                 <VerticalAlign>Middle</VerticalAlign>
               </Style>
@@ -9286,11 +9588,11 @@ Cstr(Fields!CACCaption.Value)
                   </Style>
                 </Paragraph>
               </Paragraphs>
-              <Top>192pt</Top>
-              <Left>4.05554cm</Left>
+              <Top>254.78756pt</Top>
+              <Left>4.51152cm</Left>
               <Height>11pt</Height>
               <Width>13.72753cm</Width>
-              <ZIndex>18</ZIndex>
+              <ZIndex>26</ZIndex>
               <Style>
                 <VerticalAlign>Middle</VerticalAlign>
               </Style>
@@ -9314,11 +9616,11 @@ Cstr(Fields!CACCaption.Value)
                   </Style>
                 </Paragraph>
               </Paragraphs>
-              <Top>142pt</Top>
-              <Left>4.05554cm</Left>
+              <Top>204.78756pt</Top>
+              <Left>4.51152cm</Left>
               <Height>11pt</Height>
               <Width>6.33806cm</Width>
-              <ZIndex>19</ZIndex>
+              <ZIndex>27</ZIndex>
               <Style>
                 <VerticalAlign>Middle</VerticalAlign>
               </Style>
@@ -9342,11 +9644,11 @@ Cstr(Fields!CACCaption.Value)
                   </Style>
                 </Paragraph>
               </Paragraphs>
-              <Top>162pt</Top>
-              <Left>13.79314cm</Left>
+              <Top>224.78756pt</Top>
+              <Left>14.24912cm</Left>
               <Height>11pt</Height>
               <Width>3.99cm</Width>
-              <ZIndex>20</ZIndex>
+              <ZIndex>28</ZIndex>
               <Style>
                 <VerticalAlign>Middle</VerticalAlign>
               </Style>
@@ -9370,11 +9672,11 @@ Cstr(Fields!CACCaption.Value)
                   </Style>
                 </Paragraph>
               </Paragraphs>
-              <Top>152pt</Top>
-              <Left>13.79314cm</Left>
+              <Top>214.78756pt</Top>
+              <Left>14.24912cm</Left>
               <Height>11pt</Height>
               <Width>3.99cm</Width>
-              <ZIndex>21</ZIndex>
+              <ZIndex>29</ZIndex>
               <Style>
                 <VerticalAlign>Middle</VerticalAlign>
               </Style>
@@ -9398,11 +9700,11 @@ Cstr(Fields!CACCaption.Value)
                   </Style>
                 </Paragraph>
               </Paragraphs>
-              <Top>142pt</Top>
-              <Left>13.79314cm</Left>
+              <Top>204.78756pt</Top>
+              <Left>14.24912cm</Left>
               <Height>11pt</Height>
               <Width>3.99cm</Width>
-              <ZIndex>22</ZIndex>
+              <ZIndex>30</ZIndex>
               <Style>
                 <VerticalAlign>Middle</VerticalAlign>
               </Style>
@@ -9426,11 +9728,11 @@ Cstr(Fields!CACCaption.Value)
                   </Style>
                 </Paragraph>
               </Paragraphs>
-              <Top>131pt</Top>
-              <Left>13.79314cm</Left>
+              <Top>193.78756pt</Top>
+              <Left>14.24912cm</Left>
               <Height>11pt</Height>
               <Width>3.99cm</Width>
-              <ZIndex>23</ZIndex>
+              <ZIndex>31</ZIndex>
               <Style>
                 <VerticalAlign>Middle</VerticalAlign>
               </Style>
@@ -9454,11 +9756,11 @@ Cstr(Fields!CACCaption.Value)
                   </Style>
                 </Paragraph>
               </Paragraphs>
-              <Top>100pt</Top>
-              <Left>13.79314cm</Left>
+              <Top>162.78756pt</Top>
+              <Left>14.24912cm</Left>
               <Height>11pt</Height>
               <Width>3.99cm</Width>
-              <ZIndex>24</ZIndex>
+              <ZIndex>32</ZIndex>
               <Style>
                 <VerticalAlign>Middle</VerticalAlign>
               </Style>
@@ -9482,11 +9784,11 @@ Cstr(Fields!CACCaption.Value)
                   </Style>
                 </Paragraph>
               </Paragraphs>
-              <Top>70pt</Top>
-              <Left>10.53471cm</Left>
+              <Top>132.78756pt</Top>
+              <Left>10.9907cm</Left>
               <Height>11pt</Height>
               <Width>7.24843cm</Width>
-              <ZIndex>25</ZIndex>
+              <ZIndex>33</ZIndex>
               <Style>
                 <VerticalAlign>Middle</VerticalAlign>
               </Style>
@@ -9510,11 +9812,11 @@ Cstr(Fields!CACCaption.Value)
                   </Style>
                 </Paragraph>
               </Paragraphs>
-              <Top>60pt</Top>
-              <Left>10.53471cm</Left>
+              <Top>122.78756pt</Top>
+              <Left>10.9907cm</Left>
               <Height>11pt</Height>
               <Width>7.24843cm</Width>
-              <ZIndex>26</ZIndex>
+              <ZIndex>34</ZIndex>
               <Style>
                 <VerticalAlign>Middle</VerticalAlign>
               </Style>
@@ -9538,11 +9840,11 @@ Cstr(Fields!CACCaption.Value)
                   </Style>
                 </Paragraph>
               </Paragraphs>
-              <Top>50pt</Top>
-              <Left>10.53471cm</Left>
+              <Top>112.78756pt</Top>
+              <Left>10.9907cm</Left>
               <Height>11pt</Height>
               <Width>7.24843cm</Width>
-              <ZIndex>27</ZIndex>
+              <ZIndex>35</ZIndex>
               <Style>
                 <VerticalAlign>Middle</VerticalAlign>
               </Style>
@@ -9566,39 +9868,11 @@ Cstr(Fields!CACCaption.Value)
                   </Style>
                 </Paragraph>
               </Paragraphs>
-              <Top>40pt</Top>
-              <Left>10.53471cm</Left>
+              <Top>102.78756pt</Top>
+              <Left>10.9907cm</Left>
               <Height>11pt</Height>
               <Width>7.24843cm</Width>
-              <ZIndex>28</ZIndex>
-              <Style>
-                <VerticalAlign>Middle</VerticalAlign>
-              </Style>
-            </Textbox>
-            <Textbox Name="textbox94">
-              <KeepTogether>true</KeepTogether>
-              <Paragraphs>
-                <Paragraph>
-                  <TextRuns>
-                    <TextRun>
-                      <Value>=Code.GetData(15,1)</Value>
-                      <Style>
-                        <FontFamily>Segoe UI</FontFamily>
-                        <FontSize>14pt</FontSize>
-                        <FontWeight>Bold</FontWeight>
-                      </Style>
-                    </TextRun>
-                  </TextRuns>
-                  <Style>
-                    <TextAlign>Right</TextAlign>
-                  </Style>
-                </Paragraph>
-              </Paragraphs>
-              <Top>0pt</Top>
-              <Left>4.67304cm</Left>
-              <Height>20pt</Height>
-              <Width>13.1101cm</Width>
-              <ZIndex>29</ZIndex>
+              <ZIndex>36</ZIndex>
               <Style>
                 <VerticalAlign>Middle</VerticalAlign>
               </Style>
@@ -9622,11 +9896,11 @@ Cstr(Fields!CACCaption.Value)
                   </Style>
                 </Paragraph>
               </Paragraphs>
-              <Top>20pt</Top>
-              <Left>10.53471cm</Left>
+              <Top>82.78756pt</Top>
+              <Left>10.9907cm</Left>
               <Height>11pt</Height>
               <Width>7.24843cm</Width>
-              <ZIndex>30</ZIndex>
+              <ZIndex>37</ZIndex>
               <Style>
                 <VerticalAlign>Middle</VerticalAlign>
               </Style>
@@ -9651,11 +9925,11 @@ Cstr(Fields!CACCaption.Value)
                   </Style>
                 </Paragraph>
               </Paragraphs>
-              <Top>152pt</Top>
-              <Left>4.05554cm</Left>
+              <Top>214.78756pt</Top>
+              <Left>4.51152cm</Left>
               <Height>11pt</Height>
               <Width>6.33806cm</Width>
-              <ZIndex>31</ZIndex>
+              <ZIndex>38</ZIndex>
               <Style>
                 <Border />
                 <VerticalAlign>Middle</VerticalAlign>
@@ -9678,10 +9952,11 @@ Cstr(Fields!CACCaption.Value)
                   <Style />
                 </Paragraph>
               </Paragraphs>
-              <Top>90pt</Top>
+              <Top>152.78756pt</Top>
+              <Left>0.17952in</Left>
               <Height>11pt</Height>
               <Width>10.3936cm</Width>
-              <ZIndex>32</ZIndex>
+              <ZIndex>39</ZIndex>
               <Style>
                 <VerticalAlign>Middle</VerticalAlign>
               </Style>
@@ -9703,10 +9978,11 @@ Cstr(Fields!CACCaption.Value)
                   <Style />
                 </Paragraph>
               </Paragraphs>
-              <Top>80pt</Top>
+              <Top>142.78756pt</Top>
+              <Left>0.17952in</Left>
               <Height>11pt</Height>
               <Width>10.3936cm</Width>
-              <ZIndex>33</ZIndex>
+              <ZIndex>40</ZIndex>
               <Style>
                 <VerticalAlign>Middle</VerticalAlign>
               </Style>
@@ -9728,10 +10004,11 @@ Cstr(Fields!CACCaption.Value)
                   <Style />
                 </Paragraph>
               </Paragraphs>
-              <Top>70pt</Top>
+              <Top>132.78756pt</Top>
+              <Left>0.17952in</Left>
               <Height>11pt</Height>
               <Width>10.3936cm</Width>
-              <ZIndex>34</ZIndex>
+              <ZIndex>41</ZIndex>
               <Style>
                 <VerticalAlign>Middle</VerticalAlign>
               </Style>
@@ -9753,10 +10030,11 @@ Cstr(Fields!CACCaption.Value)
                   <Style />
                 </Paragraph>
               </Paragraphs>
-              <Top>60pt</Top>
+              <Top>122.78756pt</Top>
+              <Left>0.17952in</Left>
               <Height>11pt</Height>
               <Width>10.3936cm</Width>
-              <ZIndex>35</ZIndex>
+              <ZIndex>42</ZIndex>
               <Style>
                 <VerticalAlign>Middle</VerticalAlign>
               </Style>
@@ -9778,10 +10056,11 @@ Cstr(Fields!CACCaption.Value)
                   <Style />
                 </Paragraph>
               </Paragraphs>
-              <Top>50pt</Top>
+              <Top>112.78756pt</Top>
+              <Left>0.17952in</Left>
               <Height>11pt</Height>
               <Width>10.3936cm</Width>
-              <ZIndex>36</ZIndex>
+              <ZIndex>43</ZIndex>
               <Style>
                 <VerticalAlign>Middle</VerticalAlign>
               </Style>
@@ -9803,10 +10082,11 @@ Cstr(Fields!CACCaption.Value)
                   <Style />
                 </Paragraph>
               </Paragraphs>
-              <Top>40pt</Top>
+              <Top>102.78756pt</Top>
+              <Left>0.17952in</Left>
               <Height>11pt</Height>
               <Width>10.3936cm</Width>
-              <ZIndex>37</ZIndex>
+              <ZIndex>44</ZIndex>
               <Style>
                 <VerticalAlign>Middle</VerticalAlign>
               </Style>
@@ -9828,10 +10108,11 @@ Cstr(Fields!CACCaption.Value)
                   <Style />
                 </Paragraph>
               </Paragraphs>
-              <Top>30pt</Top>
+              <Top>92.78756pt</Top>
+              <Left>0.17952in</Left>
               <Height>11pt</Height>
               <Width>10.3936cm</Width>
-              <ZIndex>38</ZIndex>
+              <ZIndex>45</ZIndex>
               <Style>
                 <VerticalAlign>Middle</VerticalAlign>
               </Style>
@@ -9853,10 +10134,11 @@ Cstr(Fields!CACCaption.Value)
                   <Style />
                 </Paragraph>
               </Paragraphs>
-              <Top>20pt</Top>
+              <Top>82.78756pt</Top>
+              <Left>0.17952in</Left>
               <Height>11pt</Height>
               <Width>10.3936cm</Width>
-              <ZIndex>39</ZIndex>
+              <ZIndex>46</ZIndex>
               <Style>
                 <VerticalAlign>Middle</VerticalAlign>
               </Style>
@@ -9880,10 +10162,11 @@ Cstr(Fields!CACCaption.Value)
                   <Style />
                 </Paragraph>
               </Paragraphs>
-              <Top>152pt</Top>
+              <Top>214.78756pt</Top>
+              <Left>0.17952in</Left>
               <Height>11pt</Height>
               <Width>3.98498cm</Width>
-              <ZIndex>40</ZIndex>
+              <ZIndex>47</ZIndex>
               <Style>
                 <Border>
                   <Style>None</Style>
@@ -9909,11 +10192,11 @@ Cstr(Fields!CACCaption.Value)
                   </Style>
                 </Paragraph>
               </Paragraphs>
-              <Top>121pt</Top>
-              <Left>13.79314cm</Left>
+              <Top>183.78756pt</Top>
+              <Left>14.24912cm</Left>
               <Height>11pt</Height>
               <Width>3.99cm</Width>
-              <ZIndex>41</ZIndex>
+              <ZIndex>48</ZIndex>
               <Style>
                 <Border />
                 <VerticalAlign>Middle</VerticalAlign>
@@ -9936,11 +10219,11 @@ Cstr(Fields!CACCaption.Value)
                   <Style />
                 </Paragraph>
               </Paragraphs>
-              <Top>121pt</Top>
-              <Left>10.53471cm</Left>
+              <Top>183.78756pt</Top>
+              <Left>10.9907cm</Left>
               <Height>11pt</Height>
               <Width>3.1526cm</Width>
-              <ZIndex>42</ZIndex>
+              <ZIndex>49</ZIndex>
               <Style>
                 <Border />
                 <VerticalAlign>Middle</VerticalAlign>
@@ -9965,11 +10248,11 @@ Cstr(Fields!CACCaption.Value)
                   </Style>
                 </Paragraph>
               </Paragraphs>
-              <Top>110pt</Top>
-              <Left>13.79314cm</Left>
+              <Top>172.78756pt</Top>
+              <Left>14.24912cm</Left>
               <Height>11pt</Height>
               <Width>3.99cm</Width>
-              <ZIndex>43</ZIndex>
+              <ZIndex>50</ZIndex>
               <Style>
                 <Border />
                 <VerticalAlign>Middle</VerticalAlign>
@@ -9992,11 +10275,11 @@ Cstr(Fields!CACCaption.Value)
                   <Style />
                 </Paragraph>
               </Paragraphs>
-              <Top>110pt</Top>
-              <Left>10.53471cm</Left>
+              <Top>172.78756pt</Top>
+              <Left>10.9907cm</Left>
               <Height>11pt</Height>
               <Width>3.1526cm</Width>
-              <ZIndex>44</ZIndex>
+              <ZIndex>51</ZIndex>
               <Style>
                 <Border />
                 <VerticalAlign>Middle</VerticalAlign>
@@ -10021,11 +10304,11 @@ Cstr(Fields!CACCaption.Value)
                   </Style>
                 </Paragraph>
               </Paragraphs>
-              <Top>162pt</Top>
-              <Left>4.05553cm</Left>
+              <Top>224.78756pt</Top>
+              <Left>4.51151cm</Left>
               <Height>11pt</Height>
               <Width>6.33806cm</Width>
-              <ZIndex>45</ZIndex>
+              <ZIndex>52</ZIndex>
               <Style>
                 <Border />
                 <VerticalAlign>Middle</VerticalAlign>
@@ -10050,11 +10333,11 @@ Cstr(Fields!CACCaption.Value)
                   </Style>
                 </Paragraph>
               </Paragraphs>
-              <Top>182pt</Top>
-              <Left>4.05553cm</Left>
+              <Top>244.78756pt</Top>
+              <Left>4.51151cm</Left>
               <Height>11pt</Height>
               <Width>13.72754cm</Width>
-              <ZIndex>46</ZIndex>
+              <ZIndex>53</ZIndex>
               <Style>
                 <Border />
                 <VerticalAlign>Middle</VerticalAlign>
@@ -10079,11 +10362,11 @@ Cstr(Fields!CACCaption.Value)
                   </Style>
                 </Paragraph>
               </Paragraphs>
-              <Top>172pt</Top>
-              <Left>4.05554cm</Left>
+              <Top>234.78756pt</Top>
+              <Left>4.51152cm</Left>
               <Height>11pt</Height>
               <Width>6.33806cm</Width>
-              <ZIndex>47</ZIndex>
+              <ZIndex>54</ZIndex>
               <Style>
                 <Border />
                 <VerticalAlign>Middle</VerticalAlign>
@@ -10108,10 +10391,11 @@ Cstr(Fields!CACCaption.Value)
                 </Paragraph>
               </Paragraphs>
               <rd:DefaultName>PaymentTermsDescriptionCaption</rd:DefaultName>
-              <Top>162pt</Top>
+              <Top>224.78756pt</Top>
+              <Left>0.17952in</Left>
               <Height>0.38806cm</Height>
               <Width>3.98498cm</Width>
-              <ZIndex>48</ZIndex>
+              <ZIndex>55</ZIndex>
               <Style>
                 <Border />
                 <VerticalAlign>Top</VerticalAlign>
@@ -10137,10 +10421,11 @@ Cstr(Fields!CACCaption.Value)
                 </Paragraph>
               </Paragraphs>
               <rd:DefaultName>ShipmentMethodDescriptionCaption</rd:DefaultName>
-              <Top>172pt</Top>
+              <Top>234.78756pt</Top>
+              <Left>0.17952in</Left>
               <Height>0.38806cm</Height>
               <Width>3.98498cm</Width>
-              <ZIndex>49</ZIndex>
+              <ZIndex>56</ZIndex>
               <Style>
                 <Border />
                 <VerticalAlign>Top</VerticalAlign>
@@ -10166,10 +10451,11 @@ Cstr(Fields!CACCaption.Value)
                 </Paragraph>
               </Paragraphs>
               <rd:DefaultName>PrepmtPaymentTermsDescriptionCaption</rd:DefaultName>
-              <Top>182pt</Top>
+              <Top>244.78756pt</Top>
+              <Left>0.17952in</Left>
               <Height>0.38806cm</Height>
               <Width>3.98498cm</Width>
-              <ZIndex>50</ZIndex>
+              <ZIndex>57</ZIndex>
               <Style>
                 <Border />
                 <VerticalAlign>Top</VerticalAlign>
@@ -10194,18 +10480,33 @@ Cstr(Fields!CACCaption.Value)
                   <Style />
                 </Paragraph>
               </Paragraphs>
-              <Top>212.12491pt</Top>
+              <Top>274.91247pt</Top>
+              <Left>0.17952in</Left>
               <Height>10pt</Height>
               <Width>10.39457cm</Width>
-              <ZIndex>51</ZIndex>
+              <ZIndex>58</ZIndex>
               <Style>
                 <Border />
                 <VerticalAlign>Middle</VerticalAlign>
               </Style>
             </Textbox>
           </ReportItems>
-          <Style />
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+          </Style>
         </PageHeader>
+        <PageFooter>
+          <Height>2.54cm</Height>
+          <PrintOnFirstPage>true</PrintOnFirstPage>
+          <PrintOnLastPage>true</PrintOnLastPage>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+          </Style>
+        </PageFooter>
         <PageHeight>29.7cm</PageHeight>
         <PageWidth>21cm</PageWidth>
         <InteractiveHeight>11in</InteractiveHeight>
@@ -10405,6 +10706,24 @@ End Function
         <Field Name="AllowInvDiscCaption">
           <DataField>AllowInvDiscCaption</DataField>
         </Field>
+        <Field Name="NMPurchaseOrderCaption">
+          <DataField>NMPurchaseOrderCaption</DataField>
+        </Field>
+        <Field Name="NMPurchaseOrderDateCaption">
+          <DataField>NMPurchaseOrderDateCaption</DataField>
+        </Field>
+        <Field Name="NMPurchaseOrderDate">
+          <DataField>NMPurchaseOrderDate</DataField>
+        </Field>
+        <Field Name="NMPurchaseOrderNumberCaption">
+          <DataField>NMPurchaseOrderNumberCaption</DataField>
+        </Field>
+        <Field Name="NMPurchaseOrderNumber">
+          <DataField>NMPurchaseOrderNumber</DataField>
+        </Field>
+        <Field Name="NMTicketNumberCaption">
+          <DataField>NMTicketNumberCaption</DataField>
+        </Field>
         <Field Name="OrderCopyText">
           <DataField>OrderCopyText</DataField>
         </Field>
@@ -10560,6 +10879,9 @@ End Function
         </Field>
         <Field Name="CACCaption">
           <DataField>CACCaption</DataField>
+        </Field>
+        <Field Name="NMCompanyInfoName">
+          <DataField>NMCompanyInfoName</DataField>
         </Field>
         <Field Name="HdrDimsCaption">
           <DataField>HdrDimsCaption</DataField>
