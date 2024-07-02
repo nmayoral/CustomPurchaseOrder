@@ -13,9 +13,8 @@
           </target>
         </trans-unit>
         <trans-unit id="Report 91148834 - NamedType 694817936" translate="yes">
-          <source>Amount</source>
-          <target>
-          </target>
+          <source>Total Amount (Included VAT)</source>
+          <target>Precio Total (IVA Incluido)</target>
         </trans-unit>
         <trans-unit id="Report 91148834 - NamedType 4233096702" translate="yes">
           <source>Account No.</source>
@@ -49,8 +48,7 @@
         </trans-unit>
         <trans-unit id="Report 91148834 - NamedType 4253417872" translate="yes">
           <source>Direct Unit Cost</source>
-          <target>
-          </target>
+          <target>Precio Unitario</target>
         </trans-unit>
         <trans-unit id="Report 91148834 - NamedType 58636702" translate="yes">
           <source>Discount %</source>
@@ -122,6 +120,26 @@
           <target>
           </target>
         </trans-unit>
+        <trans-unit id="Report 91148834 - NamedType 2298508192" translate="yes">
+          <source>Contract Registration:</source>
+          <target>Registro por contrato:</target>
+        </trans-unit>
+        <trans-unit id="Report 91148834 - NamedType 4124461130" translate="yes">
+          <source>Observations:</source>
+          <target>Observaciones:</target>
+        </trans-unit>
+        <trans-unit id="Report 91148834 - NamedType 154791321" translate="yes">
+          <source>Shipment/Payment Deadline:</source>
+          <target>Plazo de Entrega/Pago:</target>
+        </trans-unit>
+        <trans-unit id="Report 91148834 - NamedType 1379782269" translate="yes">
+          <source>Payment Information</source>
+          <target>Datos de Facturación</target>
+        </trans-unit>
+        <trans-unit id="Report 91148834 - NamedType 2495494158" translate="yes">
+          <source>Payment Method:</source>
+          <target>Vía de Pago:</target>
+        </trans-unit>
         <trans-unit id="Report 91148834 - NamedType 1000941094" translate="yes">
           <source>PURCHASE ORDER</source>
           <target>ORDEN DE COMPRA</target>
@@ -134,9 +152,49 @@
           <source>PO Number:</source>
           <target>Nº OC:</target>
         </trans-unit>
+        <trans-unit id="Report 91148834 - NamedType 1378715317" translate="yes">
+          <source>Product / Service Description</source>
+          <target>Descripción del Producto / Servicio</target>
+        </trans-unit>
+        <trans-unit id="Report 91148834 - NamedType 3864419586" translate="yes">
+          <source>Quantity</source>
+          <target>Cantidad</target>
+        </trans-unit>
+        <trans-unit id="Report 91148834 - NamedType 2365766416" translate="yes">
+          <source>Sale Condition:</source>
+          <target>Condición de Venta:</target>
+        </trans-unit>
+        <trans-unit id="Report 91148834 - NamedType 2293727511" translate="yes">
+          <source>Sale Deadline:</source>
+          <target>Plazo de Venta:</target>
+        </trans-unit>
         <trans-unit id="Report 91148834 - NamedType 855268684" translate="yes">
           <source>Ticket Number:</source>
           <target>Ticket Nº:</target>
+        </trans-unit>
+        <trans-unit id="Report 91148834 - NamedType 1917663643" translate="yes">
+          <source>TOTALS</source>
+          <target>TOTALES</target>
+        </trans-unit>
+        <trans-unit id="Report 91148834 - NamedType 2699120829" translate="yes">
+          <source>Contact:</source>
+          <target>Contacto:</target>
+        </trans-unit>
+        <trans-unit id="Report 91148834 - NamedType 1928920215" translate="yes">
+          <source>Vendor Information</source>
+          <target>Datos del proveedor</target>
+        </trans-unit>
+        <trans-unit id="Report 91148834 - NamedType 2167633752" translate="yes">
+          <source>Business Name:</source>
+          <target>Razón Social:</target>
+        </trans-unit>
+        <trans-unit id="Report 91148834 - NamedType 3610074977" translate="yes">
+          <source>Phone:</source>
+          <target>Teléfono:</target>
+        </trans-unit>
+        <trans-unit id="Report 91148834 - NamedType 2218053068" translate="yes">
+          <source>VAT:</source>
+          <target>RUC:</target>
         </trans-unit>
         <trans-unit id="Report 91148834 - NamedType 2219219549" translate="yes">
           <source>Order No.</source>

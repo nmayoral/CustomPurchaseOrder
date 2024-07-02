@@ -2,7 +2,7 @@ report 50000 NMSCustomPurchaseOrder
 {
     Caption = 'Custom Purchase - Order', Comment = 'Pedido compra personalizado';
     DefaultLayout = RDLC;
-    RDLCLayout = '.\Layouts\NMCustomPurchaseOrder.rdlc';
+    RDLCLayout = './src/03_Reports/NMCustomPurchaseOrder.rdlc';
     ApplicationArea = All;
 
     dataset
@@ -78,7 +78,7 @@ report 50000 NMSCustomPurchaseOrder
             column(AllowInvDiscCaption; AllowInvDiscCaptionLbl)
             {
             }
-            //NM -- PERSONALIZADO INICIO
+            //NM -- CUSTOMIZATION BEGINS
             column(NMPurchaseOrderCaption; NMPurchaseOrderCaptionLbl)
             {
             }
@@ -100,7 +100,70 @@ report 50000 NMSCustomPurchaseOrder
             // column(NMTicketNumber; xxxxx)
             // {
             // }
-            //NM -- PERSONALIZADO FIN
+            column(NMVendorInfoCaption; NMVendorInfoCaptionLbl)
+            {
+            }
+            column(NMVendorNameCaption; NMVendorNameCaptionLbl)
+            {
+            }
+            column(NMVendorName; "Purchase Header"."Pay-to Name")
+            {
+            }
+            column(NMVendorVATCaption; NMVendorVATCaptionLbl)
+            {
+            }
+            column(NMVendorVAT; CompanyInfo."VAT Registration No.")
+            {
+            }
+            column(NMVendorContactCaption; NMVendorContactCaptionLbl)
+            {
+            }
+            column(NMVendorContact; "Purchase Header"."Buy-from Contact")
+            {
+            }
+            column(NMVendorPhoneCaption; NMVendorPhoneCaptionLbl)
+            {
+            }
+            column(NMVendorPhone; NMVendor."Phone No.")
+            {
+            }
+            column(NMPurchLineDescriptionCaption; NMPurchLineDescriptionCaptionLbl)
+            {
+            }
+            column(NMPurchLineQuantityCaption; NMPurchLineQuantityCaptionLbl)
+            {
+            }
+            column(NMCompanyInfoName; CompanyInfo.Name)
+            {
+            }
+            column(NMTotalAmountCaption; NMTotalAmountCaptionLbl)
+            {
+            }
+            column(NMWrittedTotalAmount; NMWrittedTotalAmount[1])
+            {
+            }
+            column(NMPaymentInfoCaption; NMPaymentInfoCaptionLbl)
+            {
+            }
+            column(NMSalesConditionCaption; NMSalesConditionCaptionLbl)
+            {
+            }
+            column(NMSalesDeadlineCaption; NMSalesDeadlineCaptionLbl)
+            {
+            }
+            column(NMPaymentMethodCaption; NMPaymentMethodCaptionLbl)
+            {
+            }
+            column(NMPaymentDeadlineCaption; NMPaymentDeadlineCaptionLbl)
+            {
+            }
+            column(NMContractRegistrationCaption; NMContractRegistrationCaptionLbl)
+            {
+            }
+            column(NMObservationsCaption; NMObservationsCaptionLbl)
+            {
+            }
+            //NM -- CUSTOMIZATION ENDS
             dataitem(CopyLoop; "Integer")
             {
                 DataItemTableView = SORTING(Number);
@@ -260,11 +323,20 @@ report 50000 NMSCustomPurchaseOrder
                     column(CACCaption; CACCaptionLbl)
                     {
                     }
-                    //NM -- PERSONALIZADO INICIO
-                    column(NMCompanyInfoName; CompanyInfo.Name)
+                    //NM -- CUSTOMIZATION BEGINS
+                    column(NMPaymentTermsCode; "Purchase Header"."Payment Terms Code")
                     {
                     }
-                    //NM -- PERSONALIZADO FIN
+                    column(NMPaymentMethodCode; NMPaymentMethod.Code)
+                    {
+                    }
+                    column(NMPaymentDeadline; "Purchase Header"."Expected Receipt Date")
+                    {
+                    }
+                    column(NMObservations; "Purchase Header"."Operation Description") 
+                    {
+                    }
+                    //NM -- CUSTOMIZATION ENDS
                     dataitem(DimensionLoop1; "Integer")
                     {
                         DataItemLinkReference = "Purchase Header";
@@ -455,6 +527,11 @@ report 50000 NMSCustomPurchaseOrder
                         column(VATIdentifier_PurchLineCaption; "Purchase Line".FieldCaption("VAT Identifier"))
                         {
                         }
+                        //NM -- CUSTOMIZATION BEGINS
+                        column(NMOutstandingAmount_PurchLine; "Purchase Line"."Outstanding Amount")
+                        {
+                        }
+                        //NM -- CUSTOMIZATION ENDS
                         dataitem(DimensionLoop2; "Integer")
                         {
                             DataItemTableView = SORTING(Number) WHERE(Number = FILTER(1 ..));
@@ -662,7 +739,6 @@ report 50000 NMSCustomPurchaseOrder
                         column(VATAmtLineVATIdentifier3; TempVATAmountLine."VAT Identifier")
                         {
                         }
-
                         trigger OnAfterGetRecord()
                         begin
                             TempVATAmountLine.GetLine(Number);
@@ -1057,12 +1133,32 @@ report 50000 NMSCustomPurchaseOrder
                 if not IsReportInPreviewMode() then
                     if ArchiveDocument then
                         ArchiveManagement.StorePurchDocument("Purchase Header", LogInteraction);
+
+                //NM -- CUSTOMIZATION BEGINS
+                NMWrittedTotalAmount[1] := '';
+
+                IF "Purchase Header"."Currency Code" = '' THEN
+                    NMCurrencyCode := 'GUARANIES'
+                ELSE BEGIN
+                    IF NOT NMCurrency.GET("Purchase Header"."Currency Code") THEN
+                        CLEAR(NMCurrency);
+                    NMCurrencyCode := NMCurrency.Description
+                END;
+                "Purchase Header".CalcFields("Amount Including VAT");
+                NMReportCheck.FormatNoText(NMWrittedTotalAmount, "Purchase Header"."Amount Including VAT", NMCurrencyCode);
+                NMWrittedTotalAmount[1] := DelChr(NMWrittedTotalAmount[1], '=', '*');
+                NMWrittedTotalAmount[1] := DelChr(NMWrittedTotalAmount[1], '>', 'CNTIMOSGUARANIES');
+                NMWrittedTotalAmount[2] := DelChr(NMWrittedTotalAmount[2], '=', '*');
+                NMWrittedTotalAmount[2] := DelChr(NMWrittedTotalAmount[2], '>', 'CNTIMOSGUARANIES');
+                //NM -- CUSTOMIZATION ENDS
             end;
 
             trigger OnPostDataItem()
             begin
                 OnAfterPostDataItem("Purchase Header");
             end;
+
+
         }
     }
 
@@ -1241,7 +1337,7 @@ report 50000 NMSCustomPurchaseOrder
         OrderNoCaptionLbl: Label 'Order No.';
         PageCaptionLbl: Label 'Page';
         HdrDimsCaptionLbl: Label 'Header Dimensions';
-        DirectUnitCostCaptionLbl: Label 'Direct Unit Cost';
+        DirectUnitCostCaptionLbl: Label 'Direct Unit Cost', Comment = 'Precio Unitario';
         DiscountPercentCaptionLbl: Label 'Discount %';
         InvDiscAmtCaptionLbl: Label 'Invoice Discount Amount';
         SubtotalCaptionLbl: Label 'Subtotal';
@@ -1268,7 +1364,7 @@ report 50000 NMSCustomPurchaseOrder
         PrepmtVATAmtSpecCaptionLbl: Label 'Prepayment VAT Amount Specification';
         HomepageCaptionLbl: Label 'Home Page';
         EmailCaptionLbl: Label 'Email';
-        AmtCaptionLbl: Label 'Amount';
+        AmtCaptionLbl: Label 'Total Amount (Included VAT)', Comment = 'Precio Total (IVA Incluido)';
         PaymentTermsCaptionLbl: Label 'Payment Terms';
         ShpMethodCaptionLbl: Label 'Shipment Method';
         PrePmtTermsDescCaptionLbl: Label 'Prepayment Payment Terms';
@@ -1284,12 +1380,33 @@ report 50000 NMSCustomPurchaseOrder
         PayToContactEmailLbl: Label 'Pay-to Contact E-Mail';
         CACCaptionLbl: Text;
         CACTxt: Label 'Régimen especial del criterio de caja', Locked = true;
-        //NM -- PERSONALIZADO INICIO
+        //NM -- CUSTOMIZATION BEGINS
+        NMVendor: Record Vendor;
+        NMCurrency: Record Currency;
+        NMPaymentMethod: Record "Payment Method";
+        NMReportCheck: Report Check;
         NMPurchaseOrderCaptionLbl: Label 'PURCHASE ORDER', Comment = 'ORDEN DE COMPRA';
         NMPurchaseOrderDateCaptionLbl: Label 'PO Date:', Comment = 'Fecha OC:';
         NMPurchaseOrderNumberCaptionLbl: Label 'PO Number:', Comment = 'Nº OC:';
         NMTicketNumberCaptionLbl: Label 'Ticket Number:', Comment = 'Ticket Nº:';
-    //NM -- PERSONALIZADO FIN
+        NMVendorInfoCaptionLbl: Label 'Vendor Information', Comment = 'Datos del proveedor';
+        NMVendorNameCaptionLbl: Label 'Business Name:', Comment = 'Razón Social:';
+        NMVendorVATCaptionLbl: Label 'VAT:', Comment = 'RUC:';
+        NMVendorContactCaptionLbl: Label 'Contact:', Comment = 'Contacto:';
+        NMVendorPhoneCaptionLbl: Label 'Phone:', Comment = 'Teléfono:';
+        NMPurchLineDescriptionCaptionLbl: Label 'Product / Service Description', Comment = 'Descripción del Producto / Servicio';
+        NMPurchLineQuantityCaptionLbl: Label 'Quantity', Comment = 'Cantidad';
+        NMTotalAmountCaptionLbl: Label 'TOTALS', Comment = 'TOTALES';
+        NMWrittedTotalAmount: array[2] of Text[80];
+        NMCurrencyCode: Text[30];
+        NMPaymentInfoCaptionLbl: Label 'Payment Information', Comment = 'Datos de Facturación';
+        NMSalesConditionCaptionLbl: Label 'Sale Condition:', Comment = 'Condición de Venta:';
+        NMSalesDeadlineCaptionLbl: Label 'Sale Deadline:', Comment = 'Plazo de Venta:';
+        NMPaymentMethodCaptionLbl: Label 'Payment Method:', Comment = 'Vía de Pago:';
+        NMPaymentDeadlineCaptionLbl: Label 'Shipment/Payment Deadline:', Comment = 'Plazo de Entrega/Pago:';
+        NMContractRegistrationCaptionLbl: Label 'Contract Registration:', Comment = 'Registro por contrato:';
+        NMObservationsCaptionLbl: Label 'Observations:', Comment = 'Observaciones:';
+    //NM -- CUSTOMIZATION ENDS
 
     protected var
         ArchiveDocument: Boolean;
